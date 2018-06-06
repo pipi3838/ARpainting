@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1071230039928-7horm7bdl4bc6cr4jfe59jf6j7k0a7s7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1071230039928-7horm7bdl4bc6cr4jfe59jf6j7k0a7s7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAhlBJZ3zQeAr4P-Z8pSIrIpEUmoGrc6Pg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1071230039928</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wubo2.lapfelix.ARKitDraw</string>
+	<key>PROJECT_ID</key>
+	<string>arpainting-87d75</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arpainting-87d75.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1071230039928:ios:b3cb901d9a74b345</string>
+	<key>DATABASE_URL</key>
+	<string>https://arpainting-87d75.firebaseio.com</string>
+</dict>
+</plist>
