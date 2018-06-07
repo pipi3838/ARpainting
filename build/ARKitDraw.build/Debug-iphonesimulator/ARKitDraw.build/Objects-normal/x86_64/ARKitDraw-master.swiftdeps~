@@ -1,8 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "49a2dc8db6610a552f76829bb81617e1"
-build_time: [1528299442, 93800000]
-inputs:
-  "/Users/Larry/Desktop/ARKit-line-drawing/ARKitDraw/SCNVector3Extensions.swift": [1528286789, 0]
-  "/Users/Larry/Desktop/ARKit-line-drawing/ARKitDraw/ViewController.swift": [1528286789, 0]
-  "/Users/Larry/Desktop/ARKit-line-drawing/ARKitDraw/AppDelegate.swift": [1528294863, 0]
-  "/Users/Larry/Desktop/ARKit-line-drawing/ARKitDraw/login.swift": [1528299395, 0]

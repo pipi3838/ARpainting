@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C44EB77C9FF374F159C80B /* Pods_ARpainting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED81B980A8150330C61F05 /* Pods_ARpainting.framework */; };
+		F21B86AC20C8BF2000CB858A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86AB20C8BF2000CB858A /* AppDelegate.swift */; };
+		F21B86AE20C8BF2000CB858A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F21B86AD20C8BF2000CB858A /* art.scnassets */; };
+		F21B86B320C8BF2000CB858A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B86B120C8BF2000CB858A /* Main.storyboard */; };
+		F21B86B520C8BF2200CB858A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21B86B420C8BF2200CB858A /* Assets.xcassets */; };
+		F21B86B820C8BF2200CB858A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B86B620C8BF2200CB858A /* LaunchScreen.storyboard */; };
+		F21B86C620C8C0E700CB858A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86C520C8C0E700CB858A /* LoginViewController.swift */; };
+		F21B86CC20C8C20200CB858A /* MakeRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86CB20C8C20200CB858A /* MakeRoomViewController.swift */; };
+		F21B86CE20C8C62900CB858A /* RoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86CD20C8C62900CB858A /* RoomTableViewController.swift */; };
+		F21B86D020C8C69000CB858A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F21B86CF20C8C69000CB858A /* GoogleService-Info.plist */; };
+		F21B86D220C8DD1A00CB858A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D120C8DD1A00CB858A /* Room.swift */; };
+		F21B86D520C90D0200CB858A /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D320C90D0200CB858A /* PaintViewController.swift */; };
+		F21B86D620C90D0200CB858A /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FED81B980A8150330C61F05 /* Pods_ARpainting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARpainting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7C419E6094D7C921FA254D /* Pods-ARpainting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARpainting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D68A93CF87500B3982C1A7 /* Pods-ARpainting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARpainting.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting.release.xcconfig"; sourceTree = "<group>"; };
+		F21B86A820C8BF2000CB858A /* ARpainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARpainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21B86AB20C8BF2000CB858A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21B86AD20C8BF2000CB858A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F21B86B220C8BF2000CB858A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21B86B420C8BF2200CB858A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21B86B720C8BF2200CB858A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21B86B920C8BF2200CB858A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21B86C520C8C0E700CB858A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F21B86CB20C8C20200CB858A /* MakeRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeRoomViewController.swift; sourceTree = "<group>"; };
+		F21B86CD20C8C62900CB858A /* RoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewController.swift; sourceTree = "<group>"; };
+		F21B86CF20C8C69000CB858A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F21B86D120C8DD1A00CB858A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F21B86D320C90D0200CB858A /* PaintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
+		F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21B86A520C8BF2000CB858A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C44EB77C9FF374F159C80B /* Pods_ARpainting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87998B9E624AF0EA7922CF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA7C419E6094D7C921FA254D /* Pods-ARpainting.debug.xcconfig */,
+				C3D68A93CF87500B3982C1A7 /* Pods-ARpainting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D16BF08E59336FE29CBEF017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FED81B980A8150330C61F05 /* Pods_ARpainting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21B869F20C8BF2000CB858A = {
+			isa = PBXGroup;
+			children = (
+				F21B86AA20C8BF2000CB858A /* ARpainting */,
+				F21B86A920C8BF2000CB858A /* Products */,
+				C87998B9E624AF0EA7922CF8 /* Pods */,
+				D16BF08E59336FE29CBEF017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F21B86A920C8BF2000CB858A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21B86A820C8BF2000CB858A /* ARpainting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21B86AA20C8BF2000CB858A /* ARpainting */ = {
+			isa = PBXGroup;
+			children = (
+				F21B86AD20C8BF2000CB858A /* art.scnassets */,
+				F21B86AB20C8BF2000CB858A /* AppDelegate.swift */,
+				F21B86C520C8C0E700CB858A /* LoginViewController.swift */,
+				F21B86CD20C8C62900CB858A /* RoomTableViewController.swift */,
+				F21B86CB20C8C20200CB858A /* MakeRoomViewController.swift */,
+				F21B86D120C8DD1A00CB858A /* Room.swift */,
+				F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */,
+				F21B86D320C90D0200CB858A /* PaintViewController.swift */,
+				F21B86B120C8BF2000CB858A /* Main.storyboard */,
+				F21B86B420C8BF2200CB858A /* Assets.xcassets */,
+				F21B86B620C8BF2200CB858A /* LaunchScreen.storyboard */,
+				F21B86B920C8BF2200CB858A /* Info.plist */,
+				F21B86CF20C8C69000CB858A /* GoogleService-Info.plist */,
+			);
+			path = ARpainting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21B86A720C8BF2000CB858A /* ARpainting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21B86BC20C8BF2200CB858A /* Build configuration list for PBXNativeTarget "ARpainting" */;
+			buildPhases = (
+				43C82F74E51D067B30CED489 /* [CP] Check Pods Manifest.lock */,
+				F21B86A420C8BF2000CB858A /* Sources */,
+				F21B86A520C8BF2000CB858A /* Frameworks */,
+				F21B86A620C8BF2000CB858A /* Resources */,
+				A2E329A499D4D71A537D66D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARpainting;
+			productName = ARpainting;
+			productReference = F21B86A820C8BF2000CB858A /* ARpainting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21B86A020C8BF2000CB858A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = orange;
+				TargetAttributes = {
+					F21B86A720C8BF2000CB858A = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F21B86A320C8BF2000CB858A /* Build configuration list for PBXProject "ARpainting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21B869F20C8BF2000CB858A;
+			productRefGroup = F21B86A920C8BF2000CB858A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21B86A720C8BF2000CB858A /* ARpainting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21B86A620C8BF2000CB858A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21B86D020C8C69000CB858A /* GoogleService-Info.plist in Resources */,
+				F21B86AE20C8BF2000CB858A /* art.scnassets in Resources */,
+				F21B86B820C8BF2200CB858A /* LaunchScreen.storyboard in Resources */,
+				F21B86B520C8BF2200CB858A /* Assets.xcassets in Resources */,
+				F21B86B320C8BF2000CB858A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43C82F74E51D067B30CED489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARpainting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E329A499D4D71A537D66D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21B86A420C8BF2000CB858A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21B86D520C90D0200CB858A /* PaintViewController.swift in Sources */,
+				F21B86C620C8C0E700CB858A /* LoginViewController.swift in Sources */,
+				F21B86D620C90D0200CB858A /* SCNVector3Extensions.swift in Sources */,
+				F21B86CE20C8C62900CB858A /* RoomTableViewController.swift in Sources */,
+				F21B86D220C8DD1A00CB858A /* Room.swift in Sources */,
+				F21B86AC20C8BF2000CB858A /* AppDelegate.swift in Sources */,
+				F21B86CC20C8C20200CB858A /* MakeRoomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F21B86B120C8BF2000CB858A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21B86B220C8BF2000CB858A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21B86B620C8BF2200CB858A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21B86B720C8BF2200CB858A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21B86BA20C8BF2200CB858A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21B86BB20C8BF2200CB858A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21B86BD20C8BF2200CB858A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7C419E6094D7C921FA254D /* Pods-ARpainting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELD4D2K2A6;
+				INFOPLIST_FILE = ARpainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.ARpainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F21B86BE20C8BF2200CB858A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D68A93CF87500B3982C1A7 /* Pods-ARpainting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ELD4D2K2A6;
+				INFOPLIST_FILE = ARpainting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.ARpainting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21B86A320C8BF2000CB858A /* Build configuration list for PBXProject "ARpainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21B86BA20C8BF2200CB858A /* Debug */,
+				F21B86BB20C8BF2200CB858A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21B86BC20C8BF2200CB858A /* Build configuration list for PBXNativeTarget "ARpainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21B86BD20C8BF2200CB858A /* Debug */,
+				F21B86BE20C8BF2200CB858A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21B86A020C8BF2000CB858A /* Project object */;
+}
