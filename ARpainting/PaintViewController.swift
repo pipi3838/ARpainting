@@ -255,6 +255,21 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
             from: line.startPoint, to: line.endPoint, radius: 0.001, color: UIColor(hexString: line.color))
         sceneView.scene.rootNode.addChildNode(twoPointsNode)
         
+        let ballNode = SCNNode()
+        let material = SCNMaterial()
+        material.lightingModel = .lambert
+        material.diffuse.contents = UIColor(hexString: line.color)
+        material.ambient.contents = UIColor.init(white: 0.1, alpha: 1)
+        material.locksAmbientWithDiffuse = false
+        let ballGeo = SCNSphere(radius: 0.001)
+        ballGeo.materials = [material]
+        ballNode.geometry = ballGeo
+        ballNode.position = line.startPoint
+        
+        sceneView.scene.rootNode.addChildNode(ballNode)
+        ballNode.position = line.endPoint
+        sceneView.scene.rootNode.addChildNode(ballNode)
+        
     }
     
     func lineFrom(vector vector1: SCNVector3, toVector vector2: SCNVector3) -> SCNGeometry {
@@ -286,6 +301,9 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     @IBAction func clearLines(_ sender: Any) {
         linesRef.removeValue()
         lines = [:]
+        sceneView.scene.rootNode.enumerateChildNodes { (node, stop) in
+            node.removeFromParentNode()
+        }
     }
     
     

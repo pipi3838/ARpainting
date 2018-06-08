@@ -25,10 +25,13 @@ extension SCNNode {
         
         //material
         let material = SCNMaterial()
-        material.lightingModel = .blinn
+        material.lightingModel = .lambert
         material.diffuse.contents = color
-        material.specular.contents = UIColor.white
-        material.shininess = 1.0
+        material.ambient.contents = UIColor.init(white: 0.1, alpha: 1)
+        material.locksAmbientWithDiffuse = false
+//        material.lightingModel = .blinn
+//        material.specular.contents = UIColor.white
+//        material.shininess = 1.0
         
         if l == 0.0 {
             // two points together.
