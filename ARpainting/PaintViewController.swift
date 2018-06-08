@@ -69,6 +69,8 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         
         // Set the scene to the view
         sceneView.scene = scene
+        sceneView.autoenablesDefaultLighting = true
+        sceneView.automaticallyUpdatesLighting = true
         
         //Set color button color
         colorButtonItem.tintColor = lineColor
