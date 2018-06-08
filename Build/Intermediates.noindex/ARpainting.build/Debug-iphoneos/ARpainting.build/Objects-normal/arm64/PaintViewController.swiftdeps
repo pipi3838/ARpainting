@@ -43,6 +43,7 @@ depends-top-level:
 - !private "AnyObject"
 - "Array"
 - "AssignmentPrecedence"
+- !private "Auth"
 - "Bool"
 - "BooleanLiteralType"
 - !private "CGRect"
@@ -56,6 +57,7 @@ depends-top-level:
 - !private "DispatchQueue"
 - !private "Double"
 - "Error"
+- !private "ExtendedGraphemeClusterType"
 - "IndexPath"
 - "Int"
 - !private "Int32"
@@ -71,7 +73,7 @@ depends-top-level:
 - "SCNVector3"
 - "Set"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "TimeInterval"
 - "UIBarButtonItem"
 - "UIButton"
@@ -87,6 +89,7 @@ depends-top-level:
 - "UITextField"
 - "UITouch"
 - "UIViewController"
+- !private "UnicodeScalarType"
 - !private "glLineWidth"
 depends-member:
 - !private ["So15ARConfigurationC", "init"]
@@ -98,6 +101,7 @@ depends-member:
 - !private ["So9ARSCNViewC", "session"]
 - !private ["So9ARSCNViewC", "showsStatistics"]
 - !private ["So17ARSCNViewDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So17ARSCNViewDelegateP", "Auth"]
 - !private ["So17ARSCNViewDelegateP", "CGRect"]
 - !private ["So17ARSCNViewDelegateP", "CGSize"]
 - !private ["So17ARSCNViewDelegateP", "DataEventType"]
@@ -164,12 +168,14 @@ depends-member:
 - ["So17ARSCNViewDelegateP", "sessionWasInterrupted"]
 - !private ["So17ARSCNViewDelegateP", "storyboard"]
 - ["So17ARSCNViewDelegateP", "tableView"]
+- !private ["So17ARSCNViewDelegateP", "userName"]
 - !private ["So17ARSCNViewDelegateP", "view"]
 - ["So17ARSCNViewDelegateP", "viewForZooming"]
 - ["So17ARSCNViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["So9ARSessionC", "pause"]
 - !private ["So9ARSessionC", "run"]
 - !private ["So17ARSessionObserverP", "ARWorldTrackingConfiguration"]
+- !private ["So17ARSessionObserverP", "Auth"]
 - !private ["So17ARSessionObserverP", "CGRect"]
 - !private ["So17ARSessionObserverP", "CGSize"]
 - !private ["So17ARSessionObserverP", "DataEventType"]
@@ -236,6 +242,7 @@ depends-member:
 - ["So17ARSessionObserverP", "sessionWasInterrupted"]
 - !private ["So17ARSessionObserverP", "storyboard"]
 - ["So17ARSessionObserverP", "tableView"]
+- !private ["So17ARSessionObserverP", "userName"]
 - !private ["So17ARSessionObserverP", "view"]
 - ["So17ARSessionObserverP", "viewForZooming"]
 - ["So17ARSessionObserverP", "viewForZoomingInScrollView"]
@@ -244,10 +251,13 @@ depends-member:
 - !private ["Sa", "count"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
+- !private ["So4AuthC", "auth"]
+- !private ["So4AuthC", "currentUser"]
 - !private ["s23BidirectionalCollectionP", "append"]
 - !private ["s23BidirectionalCollectionP", "count"]
 - ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "split"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "autoenablesDefaultLighting"]
@@ -270,6 +280,7 @@ depends-member:
 - !private ["SC6CGRectV", "init"]
 - !private ["SC6CGSizeV", "init"]
 - !private ["s7CVarArgP", "ARWorldTrackingConfiguration"]
+- !private ["s7CVarArgP", "Auth"]
 - !private ["s7CVarArgP", "CGRect"]
 - !private ["s7CVarArgP", "CGSize"]
 - !private ["s7CVarArgP", "DataEventType"]
@@ -296,6 +307,7 @@ depends-member:
 - !private ["s7CVarArgP", "ambient"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "autoenablesDefaultLighting"]
 - !private ["s7CVarArgP", "automaticallyUpdatesLighting"]
 - !private ["s7CVarArgP", "backgroundColor"]
@@ -313,11 +325,13 @@ depends-member:
 - !private ["s7CVarArgP", "contentView"]
 - !private ["s7CVarArgP", "contents"]
 - !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentUser"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "diffuse"]
 - !private ["s7CVarArgP", "drawButton"]
+- !private ["s7CVarArgP", "email"]
 - !private ["s7CVarArgP", "endEditing"]
 - !private ["s7CVarArgP", "enumerateChildNodes"]
 - !private ["s7CVarArgP", "geometry"]
@@ -387,6 +401,7 @@ depends-member:
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "showsStatistics"]
 - !private ["s7CVarArgP", "sourceRect"]
+- !private ["s7CVarArgP", "split"]
 - !private ["s7CVarArgP", "storyboard"]
 - !private ["s7CVarArgP", "subscript"]
 - ["s7CVarArgP", "tableView"]
@@ -395,6 +410,7 @@ depends-member:
 - !private ["s7CVarArgP", "tintColor"]
 - !private ["s7CVarArgP", "toHexString"]
 - !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "userName"]
 - !private ["s7CVarArgP", "value"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
@@ -402,19 +418,23 @@ depends-member:
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["s7CVarArgP", "viewWillAppear"]
 - !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["s9CharacterV", "init"]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "split"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["10ARpainting25ColorPickerViewControllerC", "deinit"]
 - !private ["10ARpainting25ColorPickerViewControllerC", "delegate"]
 - !private ["10ARpainting25ColorPickerViewControllerC", "modalPresentationStyle"]
 - !private ["10ARpainting25ColorPickerViewControllerC", "popoverPresentationController"]
 - !private ["10ARpainting25ColorPickerViewControllerC", "preferredContentSize"]
-- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "row"]
+- !private ["s10ComparableP", "split"]
 - !private ["s28CustomDebugStringConvertibleP", "ARWorldTrackingConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "CGRect"]
 - !private ["s28CustomDebugStringConvertibleP", "CGSize"]
 - !private ["s28CustomDebugStringConvertibleP", "DataEventType"]
@@ -440,6 +460,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "ambient"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "autoenablesDefaultLighting"]
 - !private ["s28CustomDebugStringConvertibleP", "automaticallyUpdatesLighting"]
 - !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
@@ -457,11 +478,13 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "contentView"]
 - !private ["s28CustomDebugStringConvertibleP", "contents"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentUser"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "diffuse"]
 - !private ["s28CustomDebugStringConvertibleP", "drawButton"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
 - !private ["s28CustomDebugStringConvertibleP", "endEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "enumerateChildNodes"]
 - !private ["s28CustomDebugStringConvertibleP", "geometry"]
@@ -532,6 +555,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "showsStatistics"]
 - !private ["s28CustomDebugStringConvertibleP", "sourceRect"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
 - !private ["s28CustomDebugStringConvertibleP", "storyboard"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "tableView"]
@@ -540,6 +564,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "tintColor"]
 - !private ["s28CustomDebugStringConvertibleP", "toHexString"]
 - !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "userName"]
 - !private ["s28CustomDebugStringConvertibleP", "value"]
 - !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
@@ -548,15 +573,18 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
 - !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "split"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "clear"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "split"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "ARWorldTrackingConfiguration"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "CGRect"]
 - !private ["s23CustomStringConvertibleP", "CGSize"]
 - !private ["s23CustomStringConvertibleP", "DataEventType"]
@@ -583,6 +611,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "ambient"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "autoenablesDefaultLighting"]
 - !private ["s23CustomStringConvertibleP", "automaticallyUpdatesLighting"]
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
@@ -600,11 +629,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "contentView"]
 - !private ["s23CustomStringConvertibleP", "contents"]
 - !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentUser"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "diffuse"]
 - !private ["s23CustomStringConvertibleP", "drawButton"]
+- !private ["s23CustomStringConvertibleP", "email"]
 - !private ["s23CustomStringConvertibleP", "endEditing"]
 - !private ["s23CustomStringConvertibleP", "enumerateChildNodes"]
 - !private ["s23CustomStringConvertibleP", "geometry"]
@@ -675,6 +706,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "showsStatistics"]
 - !private ["s23CustomStringConvertibleP", "sourceRect"]
+- !private ["s23CustomStringConvertibleP", "split"]
 - !private ["s23CustomStringConvertibleP", "storyboard"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - ["s23CustomStringConvertibleP", "tableView"]
@@ -683,6 +715,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "tintColor"]
 - !private ["s23CustomStringConvertibleP", "toHexString"]
 - !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "userName"]
 - !private ["s23CustomStringConvertibleP", "value"]
 - !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
@@ -714,6 +747,7 @@ depends-member:
 - !private ["s9DecodableP", "count"]
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "split"]
 - !private ["s9DecodableP", "subscript"]
 - ["s10DictionaryV", "init"]
 - !private ["s10DictionaryV", "subscript"]
@@ -727,8 +761,10 @@ depends-member:
 - !private ["s9EncodableP", "count"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "split"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "ARWorldTrackingConfiguration"]
+- !private ["s9EquatableP", "Auth"]
 - !private ["s9EquatableP", "CGRect"]
 - !private ["s9EquatableP", "CGSize"]
 - !private ["s9EquatableP", "DataEventType"]
@@ -756,6 +792,7 @@ depends-member:
 - !private ["s9EquatableP", "any"]
 - !private ["s9EquatableP", "append"]
 - !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "auth"]
 - !private ["s9EquatableP", "autoenablesDefaultLighting"]
 - !private ["s9EquatableP", "automaticallyUpdatesLighting"]
 - !private ["s9EquatableP", "backgroundColor"]
@@ -774,11 +811,13 @@ depends-member:
 - !private ["s9EquatableP", "contentView"]
 - !private ["s9EquatableP", "contents"]
 - !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "currentUser"]
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "dequeueReusableCell"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "diffuse"]
 - !private ["s9EquatableP", "drawButton"]
+- !private ["s9EquatableP", "email"]
 - !private ["s9EquatableP", "endEditing"]
 - !private ["s9EquatableP", "enumerateChildNodes"]
 - !private ["s9EquatableP", "geometry"]
@@ -852,6 +891,7 @@ depends-member:
 - !private ["s9EquatableP", "setValue"]
 - !private ["s9EquatableP", "showsStatistics"]
 - !private ["s9EquatableP", "sourceRect"]
+- !private ["s9EquatableP", "split"]
 - !private ["s9EquatableP", "storyboard"]
 - !private ["s9EquatableP", "subscript"]
 - ["s9EquatableP", "tableView"]
@@ -860,6 +900,7 @@ depends-member:
 - !private ["s9EquatableP", "tintColor"]
 - !private ["s9EquatableP", "toHexString"]
 - !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "userName"]
 - !private ["s9EquatableP", "value"]
 - !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewDidLoad"]
@@ -876,11 +917,15 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
 - !private ["s23ExpressibleByNilLiteralP", "clear"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
 - !private ["s8HashableP", "ARWorldTrackingConfiguration"]
+- !private ["s8HashableP", "Auth"]
 - !private ["s8HashableP", "CGRect"]
 - !private ["s8HashableP", "CGSize"]
 - !private ["s8HashableP", "DataEventType"]
@@ -906,6 +951,7 @@ depends-member:
 - !private ["s8HashableP", "allObjects"]
 - !private ["s8HashableP", "ambient"]
 - !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "auth"]
 - !private ["s8HashableP", "autoenablesDefaultLighting"]
 - !private ["s8HashableP", "automaticallyUpdatesLighting"]
 - !private ["s8HashableP", "backgroundColor"]
@@ -923,18 +969,20 @@ depends-member:
 - !private ["s8HashableP", "colorButtonItem"]
 - !private ["s8HashableP", "contentView"]
 - !private ["s8HashableP", "contents"]
+- !private ["s8HashableP", "currentUser"]
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "dequeueReusableCell"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "diffuse"]
 - !private ["s8HashableP", "drawButton"]
+- !private ["s8HashableP", "email"]
 - !private ["s8HashableP", "endEditing"]
 - !private ["s8HashableP", "enumerateChildNodes"]
 - !private ["s8HashableP", "geometry"]
 - !private ["s8HashableP", "glLineWidth"]
 - ["s8HashableP", "indexPathForPreferredFocusedView"]
 - ["s8HashableP", "indexPathForPreferredFocusedViewInTableView"]
-- !private ["s8HashableP", "init"]
+- ["s8HashableP", "init"]
 - !private ["s8HashableP", "instantiateViewController"]
 - !private ["s8HashableP", "isHighlighted"]
 - !private ["s8HashableP", "key"]
@@ -1001,6 +1049,7 @@ depends-member:
 - !private ["s8HashableP", "setValue"]
 - !private ["s8HashableP", "showsStatistics"]
 - !private ["s8HashableP", "sourceRect"]
+- !private ["s8HashableP", "split"]
 - !private ["s8HashableP", "storyboard"]
 - ["s8HashableP", "tableView"]
 - !private ["s8HashableP", "text"]
@@ -1008,6 +1057,7 @@ depends-member:
 - !private ["s8HashableP", "tintColor"]
 - !private ["s8HashableP", "toHexString"]
 - !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "userName"]
 - !private ["s8HashableP", "value"]
 - !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewDidLoad"]
@@ -1019,14 +1069,17 @@ depends-member:
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["So11SCNMaterialC13LightingModelV", "lambert"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
 - !private ["s17MutableCollectionP", "append"]
 - !private ["s17MutableCollectionP", "count"]
 - ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "row"]
 - !private ["s17MutableCollectionP", "subscript"]
 - !private ["So8NSCodingP", "ARWorldTrackingConfiguration"]
+- !private ["So8NSCodingP", "Auth"]
 - !private ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "CGSize"]
 - !private ["So8NSCodingP", "DataEventType"]
@@ -1124,6 +1177,7 @@ depends-member:
 - ["So8NSCodingP", "sessionShouldAttemptRelocalization"]
 - ["So8NSCodingP", "sessionWasInterrupted"]
 - !private ["So8NSCodingP", "showsStatistics"]
+- !private ["So8NSCodingP", "split"]
 - !private ["So8NSCodingP", "storyboard"]
 - ["So8NSCodingP", "tableView"]
 - !private ["So8NSCodingP", "text"]
@@ -1131,6 +1185,7 @@ depends-member:
 - !private ["So8NSCodingP", "tintColor"]
 - !private ["So8NSCodingP", "toHexString"]
 - !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "userName"]
 - !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
@@ -1151,10 +1206,12 @@ depends-member:
 - !private ["So9NSCopyingP", "materials"]
 - !private ["So9NSCopyingP", "position"]
 - !private ["So9NSCopyingP", "removeFromParentNode"]
+- !private ["So9NSCopyingP", "split"]
 - !private ["So9NSCopyingP", "toHexString"]
 - !private ["So9NSCopyingP", "transform"]
 - !private ["So12NSEnumeratorC", "allObjects"]
 - !private ["So26NSExtensionRequestHandlingP", "ARWorldTrackingConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
 - !private ["So26NSExtensionRequestHandlingP", "CGSize"]
 - !private ["So26NSExtensionRequestHandlingP", "DataEventType"]
@@ -1226,6 +1283,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "sessionWasInterrupted"]
 - !private ["So26NSExtensionRequestHandlingP", "storyboard"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "userName"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
@@ -1236,15 +1294,19 @@ depends-member:
 - ["So21NSItemProviderReadingP", "black"]
 - !private ["So21NSItemProviderReadingP", "clear"]
 - !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "split"]
 - !private ["So21NSItemProviderReadingP", "toHexString"]
 - ["So21NSItemProviderWritingP", "black"]
 - !private ["So21NSItemProviderWritingP", "clear"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "split"]
 - !private ["So21NSItemProviderWritingP", "toHexString"]
+- !private ["So16NSMutableCopyingP", "split"]
 - ["So8NSObjectC", "ARSCNView"]
 - ["So8NSObjectC", "ARSession"]
 - !private ["So8NSObjectC", "ARWorldTrackingConfiguration"]
 - !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "CGRect"]
 - !private ["So8NSObjectC", "CGSize"]
@@ -1288,6 +1350,7 @@ depends-member:
 - !private ["So8NSObjectC", "allObjects"]
 - !private ["So8NSObjectC", "ambient"]
 - !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "auth"]
 - !private ["So8NSObjectC", "autoenablesDefaultLighting"]
 - !private ["So8NSObjectC", "automaticallyUpdatesLighting"]
 - !private ["So8NSObjectC", "backgroundColor"]
@@ -1305,11 +1368,13 @@ depends-member:
 - ["So8NSObjectC", "colorButtonItem"]
 - !private ["So8NSObjectC", "contentView"]
 - !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "currentUser"]
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "dequeueReusableCell"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - !private ["So8NSObjectC", "diffuse"]
 - ["So8NSObjectC", "drawButton"]
+- !private ["So8NSObjectC", "email"]
 - !private ["So8NSObjectC", "endEditing"]
 - !private ["So8NSObjectC", "enumerateChildNodes"]
 - !private ["So8NSObjectC", "geometry"]
@@ -1383,6 +1448,7 @@ depends-member:
 - !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "showsStatistics"]
 - !private ["So8NSObjectC", "sourceRect"]
+- !private ["So8NSObjectC", "split"]
 - !private ["So8NSObjectC", "storyboard"]
 - ["So8NSObjectC", "tableView"]
 - !private ["So8NSObjectC", "text"]
@@ -1392,6 +1458,7 @@ depends-member:
 - !private ["So8NSObjectC", "toHexString"]
 - ["So8NSObjectC", "touchesBegan"]
 - !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "userName"]
 - !private ["So8NSObjectC", "value"]
 - !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewDidLoad"]
@@ -1400,6 +1467,7 @@ depends-member:
 - ["So8NSObjectC", "viewWillAppear"]
 - ["So8NSObjectC", "viewWillDisappear"]
 - !private ["So16NSObjectProtocolP", "ARWorldTrackingConfiguration"]
+- !private ["So16NSObjectProtocolP", "Auth"]
 - !private ["So16NSObjectProtocolP", "CGRect"]
 - !private ["So16NSObjectProtocolP", "CGSize"]
 - !private ["So16NSObjectProtocolP", "DataEventType"]
@@ -1424,6 +1492,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "allObjects"]
 - !private ["So16NSObjectProtocolP", "ambient"]
 - !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "auth"]
 - !private ["So16NSObjectProtocolP", "autoenablesDefaultLighting"]
 - !private ["So16NSObjectProtocolP", "automaticallyUpdatesLighting"]
 - !private ["So16NSObjectProtocolP", "backgroundColor"]
@@ -1440,11 +1509,13 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "colorButtonItem"]
 - !private ["So16NSObjectProtocolP", "contentView"]
 - !private ["So16NSObjectProtocolP", "contents"]
+- !private ["So16NSObjectProtocolP", "currentUser"]
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "diffuse"]
 - !private ["So16NSObjectProtocolP", "drawButton"]
+- !private ["So16NSObjectProtocolP", "email"]
 - !private ["So16NSObjectProtocolP", "endEditing"]
 - !private ["So16NSObjectProtocolP", "enumerateChildNodes"]
 - !private ["So16NSObjectProtocolP", "geometry"]
@@ -1514,6 +1585,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "setValue"]
 - !private ["So16NSObjectProtocolP", "showsStatistics"]
 - !private ["So16NSObjectProtocolP", "sourceRect"]
+- !private ["So16NSObjectProtocolP", "split"]
 - !private ["So16NSObjectProtocolP", "storyboard"]
 - ["So16NSObjectProtocolP", "tableView"]
 - !private ["So16NSObjectProtocolP", "text"]
@@ -1521,6 +1593,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "tintColor"]
 - !private ["So16NSObjectProtocolP", "toHexString"]
 - !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "userName"]
 - !private ["So16NSObjectProtocolP", "value"]
 - !private ["So16NSObjectProtocolP", "view"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
@@ -1544,8 +1617,10 @@ depends-member:
 - !private ["So14NSSecureCodingP", "position"]
 - !private ["So14NSSecureCodingP", "removeFromParentNode"]
 - !private ["So14NSSecureCodingP", "rootNode"]
+- !private ["So14NSSecureCodingP", "split"]
 - !private ["So14NSSecureCodingP", "toHexString"]
 - !private ["So14NSSecureCodingP", "transform"]
+- !private ["So8NSStringC", "split"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "main"]
 - !private ["s9OptionSetP", "any"]
@@ -1554,6 +1629,7 @@ depends-member:
 - ["10ARpainting19PaintViewControllerC", "ARSession"]
 - !private ["10ARpainting19PaintViewControllerC", "ARWorldTrackingConfiguration"]
 - !private ["10ARpainting19PaintViewControllerC", "AnyObject"]
+- !private ["10ARpainting19PaintViewControllerC", "Auth"]
 - ["10ARpainting19PaintViewControllerC", "Bool"]
 - !private ["10ARpainting19PaintViewControllerC", "CGRect"]
 - !private ["10ARpainting19PaintViewControllerC", "CGSize"]
@@ -1649,6 +1725,7 @@ depends-member:
 - ["10ARpainting19PaintViewControllerC", "tableView"]
 - ["10ARpainting19PaintViewControllerC", "textFieldShouldReturn"]
 - ["10ARpainting19PaintViewControllerC", "touchesBegan"]
+- ["10ARpainting19PaintViewControllerC", "userName"]
 - !private ["10ARpainting19PaintViewControllerC", "view"]
 - ["10ARpainting19PaintViewControllerC", "viewDidLoad"]
 - ["10ARpainting19PaintViewControllerC", "viewForZooming"]
@@ -1663,6 +1740,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "append"]
 - !private ["s26RangeReplaceableCollectionP", "count"]
 - ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "split"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["s16RawRepresentableP", "any"]
 - !private ["s16RawRepresentableP", "bottom"]
@@ -1736,6 +1814,7 @@ depends-member:
 - !private ["So16SCNSceneRendererP", "session"]
 - !private ["So16SCNSceneRendererP", "showsStatistics"]
 - !private ["So24SCNSceneRendererDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So24SCNSceneRendererDelegateP", "Auth"]
 - !private ["So24SCNSceneRendererDelegateP", "CGRect"]
 - !private ["So24SCNSceneRendererDelegateP", "CGSize"]
 - !private ["So24SCNSceneRendererDelegateP", "DataEventType"]
@@ -1802,6 +1881,7 @@ depends-member:
 - ["So24SCNSceneRendererDelegateP", "sessionWasInterrupted"]
 - !private ["So24SCNSceneRendererDelegateP", "storyboard"]
 - ["So24SCNSceneRendererDelegateP", "tableView"]
+- !private ["So24SCNSceneRendererDelegateP", "userName"]
 - !private ["So24SCNSceneRendererDelegateP", "view"]
 - ["So24SCNSceneRendererDelegateP", "viewForZooming"]
 - ["So24SCNSceneRendererDelegateP", "viewForZoomingInScrollView"]
@@ -1836,12 +1916,17 @@ depends-member:
 - !private ["s8SequenceP", "count"]
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "split"]
 - !private ["s8SequenceP", "subscript"]
 - !private ["s10SetAlgebraP", "any"]
-- !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
+- ["SS", "init"]
+- !private ["SS", "split"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "split"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "split"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "split"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHighlighted"]
 - !private ["So29UIAccessibilityIdentificationP", "autoenablesDefaultLighting"]
@@ -1863,6 +1948,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "textLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "tintColor"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "Auth"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "CGRect"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "CGSize"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "DataEventType"]
@@ -1929,6 +2015,7 @@ depends-member:
 - ["So40UIAdaptivePresentationControllerDelegateP", "sessionWasInterrupted"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "storyboard"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "tableView"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "userName"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "view"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "viewForZooming"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "viewForZoomingInScrollView"]
@@ -1951,6 +2038,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "textLabel"]
 - !private ["So12UIAppearanceP", "tintColor"]
 - !private ["So21UIAppearanceContainerP", "ARWorldTrackingConfiguration"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
 - !private ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "CGSize"]
 - !private ["So21UIAppearanceContainerP", "DataEventType"]
@@ -2040,6 +2128,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "tableView"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "userName"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
@@ -2067,6 +2156,7 @@ depends-member:
 - !private ["So7UIColorC", "init"]
 - !private ["So7UIColorC", "toHexString"]
 - !private ["So18UIContentContainerP", "ARWorldTrackingConfiguration"]
+- !private ["So18UIContentContainerP", "Auth"]
 - !private ["So18UIContentContainerP", "CGRect"]
 - !private ["So18UIContentContainerP", "CGSize"]
 - !private ["So18UIContentContainerP", "DataEventType"]
@@ -2141,6 +2231,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "sourceRect"]
 - !private ["So18UIContentContainerP", "storyboard"]
 - ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "userName"]
 - !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
@@ -2192,6 +2283,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "ARWorldTrackingConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
 - !private ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "CGSize"]
 - !private ["So18UIFocusEnvironmentP", "DataEventType"]
@@ -2288,6 +2380,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "userName"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
@@ -2328,6 +2421,7 @@ depends-member:
 - !private ["SC24UIModalPresentationStyleO", "none"]
 - !private ["SC24UIModalPresentationStyleO", "popover"]
 - !private ["So30UIPasteConfigurationSupportingP", "ARWorldTrackingConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
 - !private ["So30UIPasteConfigurationSupportingP", "DataEventType"]
@@ -2414,6 +2508,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "tableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "userName"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
@@ -2426,6 +2521,7 @@ depends-member:
 - !private ["So31UIPopoverPresentationControllerC", "permittedArrowDirections"]
 - !private ["So31UIPopoverPresentationControllerC", "sourceRect"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "Auth"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "CGRect"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "CGSize"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "DataEventType"]
@@ -2492,6 +2588,7 @@ depends-member:
 - ["So39UIPopoverPresentationControllerDelegateP", "sessionWasInterrupted"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "storyboard"]
 - ["So39UIPopoverPresentationControllerDelegateP", "tableView"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "userName"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "view"]
 - ["So39UIPopoverPresentationControllerDelegateP", "viewForZooming"]
 - ["So39UIPopoverPresentationControllerDelegateP", "viewForZoomingInScrollView"]
@@ -2503,6 +2600,7 @@ depends-member:
 - ["So11UIResponderC", "ARSession"]
 - !private ["So11UIResponderC", "ARWorldTrackingConfiguration"]
 - !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "CGRect"]
 - !private ["So11UIResponderC", "CGSize"]
@@ -2615,6 +2713,7 @@ depends-member:
 - ["So11UIResponderC", "textFieldShouldReturn"]
 - !private ["So11UIResponderC", "textLabel"]
 - ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "userName"]
 - !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
@@ -2622,6 +2721,7 @@ depends-member:
 - ["So11UIResponderC", "viewWillAppear"]
 - ["So11UIResponderC", "viewWillDisappear"]
 - !private ["So30UIResponderStandardEditActionsP", "ARWorldTrackingConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "CGSize"]
 - !private ["So30UIResponderStandardEditActionsP", "DataEventType"]
@@ -2708,6 +2808,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "tableView"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "userName"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
@@ -2719,6 +2820,7 @@ depends-member:
 - !private ["So12UIScrollViewC", "reloadData"]
 - !private ["So12UIScrollViewC", "scrollToRow"]
 - !private ["So20UIScrollViewDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So20UIScrollViewDelegateP", "Auth"]
 - !private ["So20UIScrollViewDelegateP", "CGRect"]
 - !private ["So20UIScrollViewDelegateP", "CGSize"]
 - !private ["So20UIScrollViewDelegateP", "DataEventType"]
@@ -2788,6 +2890,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "sessionWasInterrupted"]
 - !private ["So20UIScrollViewDelegateP", "storyboard"]
 - ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "userName"]
 - !private ["So20UIScrollViewDelegateP", "view"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
@@ -2798,6 +2901,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "scrollToRow"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
 - !private ["So16UIStateRestoringP", "ARWorldTrackingConfiguration"]
+- !private ["So16UIStateRestoringP", "Auth"]
 - !private ["So16UIStateRestoringP", "CGRect"]
 - !private ["So16UIStateRestoringP", "CGSize"]
 - !private ["So16UIStateRestoringP", "DataEventType"]
@@ -2869,6 +2973,7 @@ depends-member:
 - ["So16UIStateRestoringP", "sessionWasInterrupted"]
 - !private ["So16UIStateRestoringP", "storyboard"]
 - ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "userName"]
 - !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
@@ -2884,6 +2989,7 @@ depends-member:
 - !private ["So15UITableViewCellC", "contentView"]
 - !private ["So15UITableViewCellC", "textLabel"]
 - !private ["So21UITableViewDataSourceP", "ARWorldTrackingConfiguration"]
+- !private ["So21UITableViewDataSourceP", "Auth"]
 - !private ["So21UITableViewDataSourceP", "CGRect"]
 - !private ["So21UITableViewDataSourceP", "CGSize"]
 - !private ["So21UITableViewDataSourceP", "DataEventType"]
@@ -2950,10 +3056,12 @@ depends-member:
 - ["So21UITableViewDataSourceP", "sessionWasInterrupted"]
 - !private ["So21UITableViewDataSourceP", "storyboard"]
 - ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "userName"]
 - !private ["So21UITableViewDataSourceP", "view"]
 - ["So21UITableViewDataSourceP", "viewForZooming"]
 - ["So21UITableViewDataSourceP", "viewForZoomingInScrollView"]
 - !private ["So19UITableViewDelegateP", "ARWorldTrackingConfiguration"]
+- !private ["So19UITableViewDelegateP", "Auth"]
 - !private ["So19UITableViewDelegateP", "CGRect"]
 - !private ["So19UITableViewDelegateP", "CGSize"]
 - !private ["So19UITableViewDelegateP", "DataEventType"]
@@ -3020,6 +3128,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "sessionWasInterrupted"]
 - !private ["So19UITableViewDelegateP", "storyboard"]
 - ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "userName"]
 - !private ["So19UITableViewDelegateP", "view"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
@@ -3037,6 +3146,7 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So18UITraitEnvironmentP", "ARWorldTrackingConfiguration"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "CGSize"]
 - !private ["So18UITraitEnvironmentP", "DataEventType"]
@@ -3126,6 +3236,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "tableView"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "userName"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
@@ -3153,6 +3264,7 @@ depends-member:
 - ["So16UIViewControllerC", "ARSession"]
 - !private ["So16UIViewControllerC", "ARWorldTrackingConfiguration"]
 - !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "Bool"]
 - !private ["So16UIViewControllerC", "CGRect"]
 - !private ["So16UIViewControllerC", "CGSize"]
@@ -3251,12 +3363,15 @@ depends-member:
 - ["So16UIViewControllerC", "tableView"]
 - ["So16UIViewControllerC", "textFieldShouldReturn"]
 - ["So16UIViewControllerC", "touchesBegan"]
+- ["So16UIViewControllerC", "userName"]
 - !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", "viewForZooming"]
 - ["So16UIViewControllerC", "viewForZoomingInScrollView"]
 - ["So16UIViewControllerC", "viewWillAppear"]
 - ["So16UIViewControllerC", "viewWillDisappear"]
+- !private ["So4UserC", "email"]
+- !private ["So8UserInfoP", "email"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
 - ["s14_ArrayProtocolP", "init"]
@@ -3283,16 +3398,24 @@ depends-member:
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
 - ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "toHexString"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ARWorldTrackingConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DataEventType"]
@@ -3317,6 +3440,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "allObjects"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ambient"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "autoenablesDefaultLighting"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "automaticallyUpdatesLighting"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
@@ -3333,11 +3457,13 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "colorButtonItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "drawButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerateChildNodes"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "geometry"]
@@ -3407,6 +3533,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showsStatistics"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
@@ -3414,6 +3541,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "toHexString"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userName"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
@@ -3431,12 +3559,14 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "m32"]
 - !private ["s21_ObjectiveCBridgeableP", "m33"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "x"]
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - !private ["s21_ObjectiveCBridgeableP", "z"]
 - !private ["s20_SwiftNewtypeWrapperP", "lambert"]
-- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "split"]
 - ["10ARpainting19PaintViewControllerC4chatV", "String"]
 - ["10ARpainting19PaintViewControllerC4chatV", "init"]
 - ["10ARpainting19PaintViewControllerC4chatV", "owner"]
@@ -3455,17 +3585,19 @@ depends-nominal:
 - "So17ARSessionObserverP"
 - !private "So28ARWorldTrackingConfigurationC"
 - "Sa"
+- !private "So4AuthC"
 - "s23BidirectionalCollectionP"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - !private "SC6CGRectV"
 - !private "SC6CGSizeV"
 - "s7CVarArgP"
+- !private "s9CharacterV"
 - "s10CollectionP"
 - !private "10ARpainting25ColorPickerViewControllerC"
-- !private "s10ComparableP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
+- "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "SC13DataEventTypeO"
@@ -3481,15 +3613,15 @@ depends-nominal:
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
 - !private "10Foundation9IndexPathV"
 - !private "So11SCNMaterialC13LightingModelV"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
 - "s17MutableCollectionP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
@@ -3498,9 +3630,11 @@ depends-nominal:
 - !private "So17NSFastEnumerationP"
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "So9OS_objectC"
 - !private "s9OptionSetP"
 - !private "Sq"
@@ -3530,10 +3664,10 @@ depends-nominal:
 - !private "So7SCNViewC"
 - "s8SequenceP"
 - !private "s10SetAlgebraP"
-- !private "SS"
-- !private "s14StringProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - "So40UIAdaptivePresentationControllerDelegateP"
@@ -3584,20 +3718,24 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "So4UserC"
+- !private "So8UserInfoP"
 - "s14_ArrayProtocolP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s20_SwiftNewtypeWrapperP"
-- !private "s16_SwiftStringViewP"
+- "s16_SwiftStringViewP"
 - "10ARpainting19PaintViewControllerC4chatV"
 - "10ARpainting19PaintViewControllerC4lineV"
 depends-dynamic-lookup:
@@ -3698,4 +3836,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "61f32baccb50c235111a44e60cc5845e"
+interface-hash: "828a473bfdc8d2769af164350804a26a"

@@ -9,6 +9,7 @@
 import UIKit
 import SceneKit
 import ARKit
+import FirebaseAuth
 import FirebaseDatabase
 
 class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataSource, UITableViewDelegate, UIPopoverPresentationControllerDelegate {
@@ -52,6 +53,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     @IBOutlet weak var messageTextField: UITextField!
     
     
+    var userName: String = "Me"
     var chatsRef: DatabaseReference!
     var chats = [chat]()
     
@@ -127,6 +129,14 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
             
         })
         
+        // About chat
+        
+        let user = Auth.auth().currentUser
+        if let user = user {
+            let email = user.email
+            let nameArray = email?.split(separator: "@")
+            userName = String(nameArray![0])
+        }
         
         tableView.backgroundColor = .clear
         
@@ -309,7 +319,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     
     @IBAction func sendMessage(_ sender: Any) {
         if messageTextField.text != "" {
-            chatsRef.childByAutoId().setValue(["owner":"Me", "text": messageTextField.text!])
+            chatsRef.childByAutoId().setValue(["owner":userName, "text": messageTextField.text!])
             messageTextField.text = ""
         }
     }
