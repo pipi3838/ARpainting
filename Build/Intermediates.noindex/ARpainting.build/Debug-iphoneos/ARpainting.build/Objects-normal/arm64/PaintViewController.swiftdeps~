@@ -25,6 +25,7 @@ provides-dynamic-lookup:
 - "sessionInterruptionEnded"
 - "sessionWasInterrupted"
 - "tableView"
+- "touchesBegan"
 - "viewDidLoad"
 - "viewWillAppear"
 - "viewWillDisappear"
@@ -33,6 +34,7 @@ depends-top-level:
 - !private "*"
 - !private "+"
 - !private "-"
+- !private "=="
 - !private ">"
 - "ARSCNView"
 - "ARSCNViewDelegate"
@@ -65,12 +67,14 @@ depends-top-level:
 - "SCNScene"
 - "SCNSceneRenderer"
 - "SCNVector3"
+- "Set"
 - "String"
 - !private "StringLiteralType"
 - "TimeInterval"
 - "UIBarButtonItem"
 - "UIButton"
 - "UIColor"
+- "UIEvent"
 - "UIModalPresentationStyle"
 - "UIPopoverPresentationControllerDelegate"
 - "UIPresentationController"
@@ -79,6 +83,7 @@ depends-top-level:
 - "UITableViewDataSource"
 - "UITableViewDelegate"
 - "UITextField"
+- "UITouch"
 - "UIViewController"
 - !private "glLineWidth"
 depends-member:
@@ -153,6 +158,7 @@ depends-member:
 - ["So17ARSCNViewDelegateP", "sessionWasInterrupted"]
 - !private ["So17ARSCNViewDelegateP", "storyboard"]
 - ["So17ARSCNViewDelegateP", "tableView"]
+- !private ["So17ARSCNViewDelegateP", "view"]
 - ["So17ARSCNViewDelegateP", "viewForZooming"]
 - ["So17ARSCNViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["So9ARSessionC", "pause"]
@@ -222,6 +228,7 @@ depends-member:
 - ["So17ARSessionObserverP", "sessionWasInterrupted"]
 - !private ["So17ARSessionObserverP", "storyboard"]
 - ["So17ARSessionObserverP", "tableView"]
+- !private ["So17ARSessionObserverP", "view"]
 - ["So17ARSessionObserverP", "viewForZooming"]
 - ["So17ARSessionObserverP", "viewForZoomingInScrollView"]
 - !private ["So28ARWorldTrackingConfigurationC", "init"]
@@ -239,9 +246,11 @@ depends-member:
 - !private ["So15CALayerDelegateP", "contentView"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "endEditing"]
 - !private ["So15CALayerDelegateP", "isHighlighted"]
 - !private ["So15CALayerDelegateP", "pointOfView"]
 - !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
 - !private ["So15CALayerDelegateP", "scene"]
 - !private ["So15CALayerDelegateP", "scrollToRow"]
 - !private ["So15CALayerDelegateP", "session"]
@@ -291,6 +300,7 @@ depends-member:
 - !private ["s7CVarArgP", "dequeueReusableCell"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "drawButton"]
+- !private ["s7CVarArgP", "endEditing"]
 - !private ["s7CVarArgP", "glLineWidth"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedViewInTableView"]
@@ -325,6 +335,7 @@ depends-member:
 - !private ["s7CVarArgP", "reloadData"]
 - !private ["s7CVarArgP", "removeValue"]
 - ["s7CVarArgP", "renderer"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
 - !private ["s7CVarArgP", "rootNode"]
 - !private ["s7CVarArgP", "run"]
 - !private ["s7CVarArgP", "scene"]
@@ -361,6 +372,7 @@ depends-member:
 - !private ["s7CVarArgP", "toHexString"]
 - !private ["s7CVarArgP", "transform"]
 - !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
@@ -419,6 +431,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "drawButton"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "glLineWidth"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
@@ -453,6 +466,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "reloadData"]
 - !private ["s28CustomDebugStringConvertibleP", "removeValue"]
 - ["s28CustomDebugStringConvertibleP", "renderer"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
 - !private ["s28CustomDebugStringConvertibleP", "rootNode"]
 - !private ["s28CustomDebugStringConvertibleP", "row"]
 - !private ["s28CustomDebugStringConvertibleP", "run"]
@@ -490,6 +504,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "toHexString"]
 - !private ["s28CustomDebugStringConvertibleP", "transform"]
 - !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
@@ -546,6 +561,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "drawButton"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
 - !private ["s23CustomStringConvertibleP", "glLineWidth"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
@@ -580,6 +596,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "reloadData"]
 - !private ["s23CustomStringConvertibleP", "removeValue"]
 - ["s23CustomStringConvertibleP", "renderer"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
 - !private ["s23CustomStringConvertibleP", "rootNode"]
 - !private ["s23CustomStringConvertibleP", "row"]
 - !private ["s23CustomStringConvertibleP", "run"]
@@ -617,6 +634,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "toHexString"]
 - !private ["s23CustomStringConvertibleP", "transform"]
 - !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
@@ -704,6 +722,7 @@ depends-member:
 - !private ["s9EquatableP", "dequeueReusableCell"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "drawButton"]
+- !private ["s9EquatableP", "endEditing"]
 - !private ["s9EquatableP", "glLineWidth"]
 - ["s9EquatableP", "indexPathForPreferredFocusedView"]
 - ["s9EquatableP", "indexPathForPreferredFocusedViewInTableView"]
@@ -740,6 +759,7 @@ depends-member:
 - !private ["s9EquatableP", "reloadData"]
 - !private ["s9EquatableP", "removeValue"]
 - ["s9EquatableP", "renderer"]
+- !private ["s9EquatableP", "resignFirstResponder"]
 - !private ["s9EquatableP", "rootNode"]
 - !private ["s9EquatableP", "row"]
 - !private ["s9EquatableP", "run"]
@@ -777,6 +797,7 @@ depends-member:
 - !private ["s9EquatableP", "toHexString"]
 - !private ["s9EquatableP", "transform"]
 - !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", "viewForZooming"]
 - ["s9EquatableP", "viewForZoomingInScrollView"]
@@ -836,6 +857,7 @@ depends-member:
 - !private ["s8HashableP", "dequeueReusableCell"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "drawButton"]
+- !private ["s8HashableP", "endEditing"]
 - !private ["s8HashableP", "glLineWidth"]
 - ["s8HashableP", "indexPathForPreferredFocusedView"]
 - ["s8HashableP", "indexPathForPreferredFocusedViewInTableView"]
@@ -872,6 +894,7 @@ depends-member:
 - !private ["s8HashableP", "reloadData"]
 - !private ["s8HashableP", "removeValue"]
 - ["s8HashableP", "renderer"]
+- !private ["s8HashableP", "resignFirstResponder"]
 - !private ["s8HashableP", "rootNode"]
 - !private ["s8HashableP", "row"]
 - !private ["s8HashableP", "run"]
@@ -908,6 +931,7 @@ depends-member:
 - !private ["s8HashableP", "toHexString"]
 - !private ["s8HashableP", "transform"]
 - !private ["s8HashableP", "value"]
+- !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
@@ -957,6 +981,7 @@ depends-member:
 - !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "drawButton"]
+- !private ["So8NSCodingP", "endEditing"]
 - !private ["So8NSCodingP", "glLineWidth"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedView"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedViewInTableView"]
@@ -982,6 +1007,7 @@ depends-member:
 - !private ["So8NSCodingP", "previousPoint"]
 - !private ["So8NSCodingP", "reloadData"]
 - ["So8NSCodingP", "renderer"]
+- !private ["So8NSCodingP", "resignFirstResponder"]
 - !private ["So8NSCodingP", "rootNode"]
 - !private ["So8NSCodingP", "scene"]
 - !private ["So8NSCodingP", "sceneView"]
@@ -1013,6 +1039,7 @@ depends-member:
 - !private ["So8NSCodingP", "tintColor"]
 - !private ["So8NSCodingP", "toHexString"]
 - !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
@@ -1098,6 +1125,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "sessionWasInterrupted"]
 - !private ["So26NSExtensionRequestHandlingP", "storyboard"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
@@ -1136,16 +1164,19 @@ depends-member:
 - ["So8NSObjectC", "SCNScene"]
 - ["So8NSObjectC", "SCNSceneRenderer"]
 - ["So8NSObjectC", "SCNVector3"]
+- ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "TimeInterval"]
 - ["So8NSObjectC", "UIBarButtonItem"]
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIEvent"]
 - ["So8NSObjectC", "UIModalPresentationStyle"]
 - ["So8NSObjectC", "UIPresentationController"]
 - ["So8NSObjectC", "UITableView"]
 - ["So8NSObjectC", "UITableViewCell"]
 - ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UITouch"]
 - ["So8NSObjectC", "adaptivePresentationStyle"]
 - ["So8NSObjectC", "adaptivePresentationStyleForPresentationController"]
 - !private ["So8NSObjectC", "addChildNode"]
@@ -1170,6 +1201,7 @@ depends-member:
 - !private ["So8NSObjectC", "dequeueReusableCell"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "drawButton"]
+- !private ["So8NSObjectC", "endEditing"]
 - !private ["So8NSObjectC", "glLineWidth"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedView"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedViewInTableView"]
@@ -1206,6 +1238,7 @@ depends-member:
 - !private ["So8NSObjectC", "reloadData"]
 - !private ["So8NSObjectC", "removeValue"]
 - ["So8NSObjectC", "renderer"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
 - !private ["So8NSObjectC", "rootNode"]
 - !private ["So8NSObjectC", "run"]
 - !private ["So8NSObjectC", "scene"]
@@ -1238,11 +1271,14 @@ depends-member:
 - !private ["So8NSObjectC", "storyboard"]
 - ["So8NSObjectC", "tableView"]
 - !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textFieldShouldReturn"]
 - !private ["So8NSObjectC", "textLabel"]
 - !private ["So8NSObjectC", "tintColor"]
 - !private ["So8NSObjectC", "toHexString"]
+- ["So8NSObjectC", "touchesBegan"]
 - !private ["So8NSObjectC", "transform"]
 - !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
@@ -1287,6 +1323,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "drawButton"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
 - !private ["So16NSObjectProtocolP", "glLineWidth"]
 - ["So16NSObjectProtocolP", "indexPathForPreferredFocusedView"]
 - ["So16NSObjectProtocolP", "indexPathForPreferredFocusedViewInTableView"]
@@ -1321,6 +1358,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "reloadData"]
 - !private ["So16NSObjectProtocolP", "removeValue"]
 - ["So16NSObjectProtocolP", "renderer"]
+- !private ["So16NSObjectProtocolP", "resignFirstResponder"]
 - !private ["So16NSObjectProtocolP", "rootNode"]
 - !private ["So16NSObjectProtocolP", "run"]
 - !private ["So16NSObjectProtocolP", "scene"]
@@ -1356,6 +1394,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "toHexString"]
 - !private ["So16NSObjectProtocolP", "transform"]
 - !private ["So16NSObjectProtocolP", "value"]
+- !private ["So16NSObjectProtocolP", "view"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", "viewForZooming"]
 - ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
@@ -1399,16 +1438,19 @@ depends-member:
 - ["10ARpainting19PaintViewControllerC", "SCNScene"]
 - ["10ARpainting19PaintViewControllerC", "SCNSceneRenderer"]
 - ["10ARpainting19PaintViewControllerC", "SCNVector3"]
+- ["10ARpainting19PaintViewControllerC", "Set"]
 - ["10ARpainting19PaintViewControllerC", "String"]
 - ["10ARpainting19PaintViewControllerC", "TimeInterval"]
 - ["10ARpainting19PaintViewControllerC", "UIBarButtonItem"]
 - ["10ARpainting19PaintViewControllerC", "UIButton"]
 - ["10ARpainting19PaintViewControllerC", "UIColor"]
+- ["10ARpainting19PaintViewControllerC", "UIEvent"]
 - ["10ARpainting19PaintViewControllerC", "UIModalPresentationStyle"]
 - ["10ARpainting19PaintViewControllerC", "UIPresentationController"]
 - ["10ARpainting19PaintViewControllerC", "UITableView"]
 - ["10ARpainting19PaintViewControllerC", "UITableViewCell"]
 - ["10ARpainting19PaintViewControllerC", "UITextField"]
+- ["10ARpainting19PaintViewControllerC", "UITouch"]
 - ["10ARpainting19PaintViewControllerC", "adaptivePresentationStyle"]
 - ["10ARpainting19PaintViewControllerC", "adaptivePresentationStyleForPresentationController"]
 - ["10ARpainting19PaintViewControllerC", "addLineToDatabase"]
@@ -1467,6 +1509,9 @@ depends-member:
 - ["10ARpainting19PaintViewControllerC", "setLineColor"]
 - !private ["10ARpainting19PaintViewControllerC", "storyboard"]
 - ["10ARpainting19PaintViewControllerC", "tableView"]
+- ["10ARpainting19PaintViewControllerC", "textFieldShouldReturn"]
+- ["10ARpainting19PaintViewControllerC", "touchesBegan"]
+- !private ["10ARpainting19PaintViewControllerC", "view"]
 - ["10ARpainting19PaintViewControllerC", "viewDidLoad"]
 - ["10ARpainting19PaintViewControllerC", "viewForZooming"]
 - ["10ARpainting19PaintViewControllerC", "viewForZoomingInScrollView"]
@@ -1588,6 +1633,7 @@ depends-member:
 - ["So24SCNSceneRendererDelegateP", "sessionWasInterrupted"]
 - !private ["So24SCNSceneRendererDelegateP", "storyboard"]
 - ["So24SCNSceneRendererDelegateP", "tableView"]
+- !private ["So24SCNSceneRendererDelegateP", "view"]
 - ["So24SCNSceneRendererDelegateP", "viewForZooming"]
 - ["So24SCNSceneRendererDelegateP", "viewForZoomingInScrollView"]
 - !private ["So11SCNShadableP", "init"]
@@ -1622,9 +1668,11 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "contentView"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
 - !private ["So29UIAccessibilityIdentificationP", "isHighlighted"]
 - !private ["So29UIAccessibilityIdentificationP", "pointOfView"]
 - !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
 - !private ["So29UIAccessibilityIdentificationP", "scene"]
 - !private ["So29UIAccessibilityIdentificationP", "scrollToRow"]
 - !private ["So29UIAccessibilityIdentificationP", "session"]
@@ -1697,15 +1745,18 @@ depends-member:
 - ["So40UIAdaptivePresentationControllerDelegateP", "sessionWasInterrupted"]
 - !private ["So40UIAdaptivePresentationControllerDelegateP", "storyboard"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "tableView"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "view"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "viewForZooming"]
 - ["So40UIAdaptivePresentationControllerDelegateP", "viewForZoomingInScrollView"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "contentView"]
 - !private ["So12UIAppearanceP", "delegate"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "endEditing"]
 - !private ["So12UIAppearanceP", "isHighlighted"]
 - !private ["So12UIAppearanceP", "pointOfView"]
 - !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
 - !private ["So12UIAppearanceP", "scene"]
 - !private ["So12UIAppearanceP", "scrollToRow"]
 - !private ["So12UIAppearanceP", "session"]
@@ -1744,6 +1795,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "drawButton"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
 - !private ["So21UIAppearanceContainerP", "glLineWidth"]
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedView"]
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedViewInTableView"]
@@ -1769,6 +1821,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "previousPoint"]
 - !private ["So21UIAppearanceContainerP", "reloadData"]
 - ["So21UIAppearanceContainerP", "renderer"]
+- !private ["So21UIAppearanceContainerP", "resignFirstResponder"]
 - !private ["So21UIAppearanceContainerP", "scene"]
 - !private ["So21UIAppearanceContainerP", "sceneView"]
 - !private ["So21UIAppearanceContainerP", "scrollToRow"]
@@ -1797,6 +1850,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "tableView"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
@@ -1895,22 +1949,27 @@ depends-member:
 - !private ["So18UIContentContainerP", "sourceRect"]
 - !private ["So18UIContentContainerP", "storyboard"]
 - ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
 - ["So18UIContentContainerP", "viewForZoomingInScrollView"]
 - !private ["So18UIContentContainerP", "viewWillAppear"]
 - !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So9UIControlC", "backgroundColor"]
 - !private ["So9UIControlC", "isHighlighted"]
+- !private ["So9UIControlC", "resignFirstResponder"]
 - !private ["So9UIControlC", "text"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "contentView"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
 - !private ["So17UICoordinateSpaceP", "isHighlighted"]
 - !private ["So17UICoordinateSpaceP", "pointOfView"]
 - !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
 - !private ["So17UICoordinateSpaceP", "scene"]
 - !private ["So17UICoordinateSpaceP", "scrollToRow"]
 - !private ["So17UICoordinateSpaceP", "session"]
@@ -1925,9 +1984,11 @@ depends-member:
 - !private ["So13UIDynamicItemP", "contentView"]
 - !private ["So13UIDynamicItemP", "delegate"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "endEditing"]
 - !private ["So13UIDynamicItemP", "isHighlighted"]
 - !private ["So13UIDynamicItemP", "pointOfView"]
 - !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
 - !private ["So13UIDynamicItemP", "scene"]
 - !private ["So13UIDynamicItemP", "scrollToRow"]
 - !private ["So13UIDynamicItemP", "session"]
@@ -1967,6 +2028,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "drawButton"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
 - !private ["So18UIFocusEnvironmentP", "glLineWidth"]
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedViewInTableView"]
@@ -1993,6 +2055,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "previousPoint"]
 - !private ["So18UIFocusEnvironmentP", "reloadData"]
 - ["So18UIFocusEnvironmentP", "renderer"]
+- !private ["So18UIFocusEnvironmentP", "resignFirstResponder"]
 - !private ["So18UIFocusEnvironmentP", "scene"]
 - !private ["So18UIFocusEnvironmentP", "sceneView"]
 - !private ["So18UIFocusEnvironmentP", "scrollToRow"]
@@ -2022,6 +2085,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
@@ -2033,11 +2097,13 @@ depends-member:
 - !private ["So11UIFocusItemP", "contentView"]
 - !private ["So11UIFocusItemP", "delegate"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "endEditing"]
 - !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "isHighlighted"]
 - !private ["So11UIFocusItemP", "pointOfView"]
 - !private ["So11UIFocusItemP", "position"]
 - !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
 - !private ["So11UIFocusItemP", "scene"]
 - !private ["So11UIFocusItemP", "scrollToRow"]
 - !private ["So11UIFocusItemP", "session"]
@@ -2048,6 +2114,7 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
 - !private ["So27UIGestureRecognizerDelegateP", "contentView"]
 - !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So7UILabelC", "text"]
 - !private ["SC24UIModalPresentationStyleO", "none"]
@@ -2082,6 +2149,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "drawButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
 - !private ["So30UIPasteConfigurationSupportingP", "glLineWidth"]
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedView"]
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedViewInTableView"]
@@ -2106,6 +2174,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "previousPoint"]
 - !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
 - ["So30UIPasteConfigurationSupportingP", "renderer"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
 - !private ["So30UIPasteConfigurationSupportingP", "scene"]
 - !private ["So30UIPasteConfigurationSupportingP", "sceneView"]
 - !private ["So30UIPasteConfigurationSupportingP", "scrollToRow"]
@@ -2133,6 +2202,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "tableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
@@ -2208,6 +2278,7 @@ depends-member:
 - ["So39UIPopoverPresentationControllerDelegateP", "sessionWasInterrupted"]
 - !private ["So39UIPopoverPresentationControllerDelegateP", "storyboard"]
 - ["So39UIPopoverPresentationControllerDelegateP", "tableView"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "view"]
 - ["So39UIPopoverPresentationControllerDelegateP", "viewForZooming"]
 - ["So39UIPopoverPresentationControllerDelegateP", "viewForZoomingInScrollView"]
 - !private ["So24UIPresentationControllerC", "barButtonItem"]
@@ -2238,16 +2309,19 @@ depends-member:
 - ["So11UIResponderC", "SCNScene"]
 - ["So11UIResponderC", "SCNSceneRenderer"]
 - ["So11UIResponderC", "SCNVector3"]
+- ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "TimeInterval"]
 - ["So11UIResponderC", "UIBarButtonItem"]
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIEvent"]
 - ["So11UIResponderC", "UIModalPresentationStyle"]
 - ["So11UIResponderC", "UIPresentationController"]
 - ["So11UIResponderC", "UITableView"]
 - ["So11UIResponderC", "UITableViewCell"]
 - ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UITouch"]
 - ["So11UIResponderC", "adaptivePresentationStyle"]
 - ["So11UIResponderC", "adaptivePresentationStyleForPresentationController"]
 - ["So11UIResponderC", "addLineToDatabase"]
@@ -2264,6 +2338,7 @@ depends-member:
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "drawButton"]
+- !private ["So11UIResponderC", "endEditing"]
 - !private ["So11UIResponderC", "glLineWidth"]
 - ["So11UIResponderC", "indexPathForPreferredFocusedView"]
 - ["So11UIResponderC", "indexPathForPreferredFocusedViewInTableView"]
@@ -2290,6 +2365,7 @@ depends-member:
 - ["So11UIResponderC", "previousPoint"]
 - !private ["So11UIResponderC", "reloadData"]
 - ["So11UIResponderC", "renderer"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
 - !private ["So11UIResponderC", "scene"]
 - ["So11UIResponderC", "sceneView"]
 - !private ["So11UIResponderC", "scrollToRow"]
@@ -2318,7 +2394,10 @@ depends-member:
 - !private ["So11UIResponderC", "storyboard"]
 - ["So11UIResponderC", "tableView"]
 - !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textFieldShouldReturn"]
 - !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "touchesBegan"]
+- !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
@@ -2354,6 +2433,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "drawButton"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
 - !private ["So30UIResponderStandardEditActionsP", "glLineWidth"]
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedView"]
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedViewInTableView"]
@@ -2378,6 +2458,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "previousPoint"]
 - !private ["So30UIResponderStandardEditActionsP", "reloadData"]
 - ["So30UIResponderStandardEditActionsP", "renderer"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
 - !private ["So30UIResponderStandardEditActionsP", "scene"]
 - !private ["So30UIResponderStandardEditActionsP", "sceneView"]
 - !private ["So30UIResponderStandardEditActionsP", "scrollToRow"]
@@ -2405,6 +2486,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "tableView"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
@@ -2482,6 +2564,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "sessionWasInterrupted"]
 - !private ["So20UIScrollViewDelegateP", "storyboard"]
 - ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "view"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
@@ -2560,6 +2643,7 @@ depends-member:
 - ["So16UIStateRestoringP", "sessionWasInterrupted"]
 - !private ["So16UIStateRestoringP", "storyboard"]
 - ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
 - ["So16UIStateRestoringP", "viewForZoomingInScrollView"]
@@ -2638,6 +2722,7 @@ depends-member:
 - ["So21UITableViewDataSourceP", "sessionWasInterrupted"]
 - !private ["So21UITableViewDataSourceP", "storyboard"]
 - ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "view"]
 - ["So21UITableViewDataSourceP", "viewForZooming"]
 - ["So21UITableViewDataSourceP", "viewForZoomingInScrollView"]
 - !private ["So19UITableViewDelegateP", "ARWorldTrackingConfiguration"]
@@ -2705,14 +2790,21 @@ depends-member:
 - ["So19UITableViewDelegateP", "sessionWasInterrupted"]
 - !private ["So19UITableViewDelegateP", "storyboard"]
 - ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "view"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
 - !private ["SC25UITableViewScrollPositionO", "bottom"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
 - !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
 - !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "resignFirstResponder"]
 - !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "resignFirstResponder"]
 - !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
 - !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So18UITraitEnvironmentP", "ARWorldTrackingConfiguration"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
@@ -2745,6 +2837,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "drawButton"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
 - !private ["So18UITraitEnvironmentP", "glLineWidth"]
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedViewInTableView"]
@@ -2770,6 +2863,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "previousPoint"]
 - !private ["So18UITraitEnvironmentP", "reloadData"]
 - ["So18UITraitEnvironmentP", "renderer"]
+- !private ["So18UITraitEnvironmentP", "resignFirstResponder"]
 - !private ["So18UITraitEnvironmentP", "scene"]
 - !private ["So18UITraitEnvironmentP", "sceneView"]
 - !private ["So18UITraitEnvironmentP", "scrollToRow"]
@@ -2798,6 +2892,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "tableView"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
@@ -2807,9 +2902,11 @@ depends-member:
 - !private ["So6UIViewC", "contentView"]
 - !private ["So6UIViewC", "delegate"]
 - !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "endEditing"]
 - !private ["So6UIViewC", "isHighlighted"]
 - !private ["So6UIViewC", "pointOfView"]
 - !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "resignFirstResponder"]
 - !private ["So6UIViewC", "scene"]
 - !private ["So6UIViewC", "scrollToRow"]
 - !private ["So6UIViewC", "session"]
@@ -2840,16 +2937,19 @@ depends-member:
 - ["So16UIViewControllerC", "SCNScene"]
 - ["So16UIViewControllerC", "SCNSceneRenderer"]
 - ["So16UIViewControllerC", "SCNVector3"]
+- ["So16UIViewControllerC", "Set"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "TimeInterval"]
 - ["So16UIViewControllerC", "UIBarButtonItem"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIEvent"]
 - ["So16UIViewControllerC", "UIModalPresentationStyle"]
 - ["So16UIViewControllerC", "UIPresentationController"]
 - ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", "UITableViewCell"]
 - ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UITouch"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "adaptivePresentationStyle"]
 - ["So16UIViewControllerC", "adaptivePresentationStyleForPresentationController"]
@@ -2911,6 +3011,9 @@ depends-member:
 - ["So16UIViewControllerC", "setLineColor"]
 - !private ["So16UIViewControllerC", "storyboard"]
 - ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "textFieldShouldReturn"]
+- ["So16UIViewControllerC", "touchesBegan"]
+- !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", "viewForZooming"]
 - ["So16UIViewControllerC", "viewForZoomingInScrollView"]
@@ -2924,9 +3027,11 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHighlighted"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pointOfView"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scene"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "scrollToRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "session"]
@@ -2985,6 +3090,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "drawButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "glLineWidth"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedViewInTableView"]
@@ -3019,6 +3125,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeValue"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "rootNode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "run"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
@@ -3054,6 +3161,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "toHexString"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
@@ -3256,64 +3364,64 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/HW3/ARBasketball/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -3330,4 +3438,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "2da5a2aa79a9dab48bc4545244814d32"
+interface-hash: "bf65d339bfac3d444f390ba48d0f1a67"

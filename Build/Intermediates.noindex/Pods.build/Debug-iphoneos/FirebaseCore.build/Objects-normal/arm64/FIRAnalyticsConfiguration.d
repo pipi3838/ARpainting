@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/chenoneone/開發/行動電話程式設計/專題/ARpainting/Pods/FirebaseCore/Firebase/Core/FIRAnalyticsConfiguration.m \
-  /Users/chenoneone/開發/行動電話程式設計/專題/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
-  /Users/chenoneone/開發/行動電話程式設計/專題/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
-  /Users/chenoneone/開發/行動電話程式設計/專題/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h
+  /Users/chenoneone/開發/行動電話程式設計/ARpainting/Pods/FirebaseCore/Firebase/Core/FIRAnalyticsConfiguration.m \
+  /Users/chenoneone/開發/行動電話程式設計/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/chenoneone/開發/行動電話程式設計/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/chenoneone/開發/行動電話程式設計/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h

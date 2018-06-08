@@ -39,7 +39,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     @IBOutlet weak var sceneView: ARSCNView!
     var previousPoint: SCNVector3?
     @IBOutlet weak var drawButton: UIButton!
-    var lineColor = UIColor.white
+    var lineColor = UIColor.black
     @IBOutlet weak var colorButtonItem: UIBarButtonItem!
     
     
@@ -81,6 +81,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
                         
                         let startArr = lineDict["start"] as! [Double]
                         let endArr = lineDict["end"] as! [Double]
+                        
                         let colorString = lineDict["color"] as! String
                         
                         let startPoint = SCNVector3(startArr[0], startArr[1], startArr[2])
@@ -100,11 +101,9 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         linesRef.queryLimited(toLast: 1).observe(.value, with: { (snapshot) in
             if let snapshots = snapshot.children.allObjects as? [DataSnapshot] {
                 
-                //print(snapshots)
-                
                 for snap in snapshots {
                     let key = snap.key
-                    if self.lines[key] != nil{
+                    if self.lines[key] == nil{
                         if let lineDict = snap.value as? [String : AnyObject]{
                             
                             let startArr = lineDict["start"] as! [Double]
@@ -318,6 +317,14 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         // Configure the cell...
         
         return cell
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        messageTextField.resignFirstResponder()
+        return true
     }
     
 }

@@ -109,6 +109,15 @@ class LoginViewController: UIViewController {
         self.performSegue(withIdentifier: "enterGame", sender: self)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        accountTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+        return true
+    }
+    
 
     /*
     // MARK: - Navigation
