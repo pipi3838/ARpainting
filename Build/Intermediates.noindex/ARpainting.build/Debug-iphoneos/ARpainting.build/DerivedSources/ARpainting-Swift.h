@@ -164,9 +164,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import Foundation;
 @import ARKit;
 @import SceneKit;
-@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -199,9 +199,22 @@ SWIFT_CLASS("_TtC10ARpainting11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
+@class UICollectionView;
+@class UICollectionViewCell;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC10ARpainting25ColorPickerViewController")
+@interface ColorPickerViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
 
 SWIFT_CLASS("_TtC10ARpainting19LoginViewController")
 @interface LoginViewController : UIViewController
@@ -230,19 +243,24 @@ SWIFT_CLASS("_TtC10ARpainting22MakeRoomViewController")
 
 @class ARSCNView;
 @class UIButton;
+@class UIBarButtonItem;
 @class UITableView;
+@class UIPresentationController;
 @protocol SCNSceneRenderer;
 @class SCNScene;
 @class ARSession;
 @class UITableViewCell;
 
 SWIFT_CLASS("_TtC10ARpainting19PaintViewController")
-@interface PaintViewController : UIViewController <ARSCNViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface PaintViewController : UIViewController <ARSCNViewDelegate, UIPopoverPresentationControllerDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet ARSCNView * _Null_unspecified sceneView;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified drawButton;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified colorButtonItem;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified messageTextField;
 - (void)viewDidLoad;
+- (IBAction)pickColor:(id _Nonnull)sender;
+- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController * _Nonnull)controller SWIFT_WARN_UNUSED_RESULT;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
@@ -251,6 +269,7 @@ SWIFT_CLASS("_TtC10ARpainting19PaintViewController")
 - (void)session:(ARSession * _Nonnull)session didFailWithError:(NSError * _Nonnull)error;
 - (void)sessionWasInterrupted:(ARSession * _Nonnull)session;
 - (void)sessionInterruptionEnded:(ARSession * _Nonnull)session;
+- (IBAction)clearLines:(id _Nonnull)sender;
 - (IBAction)sendMessage:(id _Nonnull)sender;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -259,7 +278,6 @@ SWIFT_CLASS("_TtC10ARpainting19PaintViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIBarButtonItem;
 @class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC10ARpainting23RoomTableViewController")
@@ -276,6 +294,8 @@ SWIFT_CLASS("_TtC10ARpainting23RoomTableViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

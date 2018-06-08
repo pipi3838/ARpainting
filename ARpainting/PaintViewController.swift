@@ -11,15 +11,17 @@ import SceneKit
 import ARKit
 import FirebaseDatabase
 
-class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataSource, UITableViewDelegate {
+class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataSource, UITableViewDelegate, UIPopoverPresentationControllerDelegate {
     
     struct line {
         var startPoint: SCNVector3!
         var endPoint: SCNVector3!
+        var color: String!
         
-        init(start: SCNVector3, end: SCNVector3){
+        init(start: SCNVector3, end: SCNVector3, color: String){
             self.startPoint = start
             self.endPoint = end
+            self.color = color
         }
     }
     
@@ -38,6 +40,8 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     var previousPoint: SCNVector3?
     @IBOutlet weak var drawButton: UIButton!
     var lineColor = UIColor.white
+    @IBOutlet weak var colorButtonItem: UIBarButtonItem!
+    
     
     var buttonHighlighted = false
     
@@ -66,6 +70,9 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         // Set the scene to the view
         sceneView.scene = scene
         
+        //Set color button color
+        colorButtonItem.tintColor = lineColor
+        
         linesRef.observeSingleEvent(of: .value, with: { (snapshot) in
             if let snapshots = snapshot.children.allObjects as? [DataSnapshot] {
                 for snap in snapshots {
@@ -74,14 +81,15 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
                         
                         let startArr = lineDict["start"] as! [Double]
                         let endArr = lineDict["end"] as! [Double]
+                        let colorString = lineDict["color"] as! String
                         
                         let startPoint = SCNVector3(startArr[0], startArr[1], startArr[2])
                         let endPoint = SCNVector3(endArr[0], endArr[1], endArr[2])
                         
-                        let myLine = line(start: startPoint, end: endPoint)
+                        let myLine = line(start: startPoint, end: endPoint, color: colorString)
                         
                         self.lines[key] = myLine
-                        self.addLineToRootNode(start: startPoint, end: endPoint)
+                        self.addLineToRootNode(line: myLine)
                         
                     }
                 }
@@ -89,10 +97,11 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
             
         })
         
-        
-        /*
-        linesRef.observe(DataEventType.value, with: { (snapshot) in
+        linesRef.queryLimited(toLast: 1).observe(.value, with: { (snapshot) in
             if let snapshots = snapshot.children.allObjects as? [DataSnapshot] {
+                
+                //print(snapshots)
+                
                 for snap in snapshots {
                     let key = snap.key
                     if self.lines[key] != nil{
@@ -100,14 +109,15 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
                             
                             let startArr = lineDict["start"] as! [Double]
                             let endArr = lineDict["end"] as! [Double]
+                            let colorString = lineDict["color"] as! String
                             
                             let startPoint = SCNVector3(startArr[0], startArr[1], startArr[2])
                             let endPoint = SCNVector3(endArr[0], endArr[1], endArr[2])
                             
-                            var myLine = line(start: startPoint, end: endPoint)
+                            let myLine = line(start: startPoint, end: endPoint, color: colorString)
                             
                             self.lines[key] = myLine
-                            self.addLineToRootNode(start: startPoint, end: endPoint)
+                            self.addLineToRootNode(line: myLine)
                             
                         }
                     }
@@ -115,7 +125,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
             }
             
         })
-        */
+        
         
         tableView.backgroundColor = .clear
         
@@ -148,6 +158,26 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         
     }
     
+    @IBAction func pickColor(_ sender: Any) {
+        let popoverVC = storyboard?.instantiateViewController(withIdentifier: "colorPickerPopover") as! ColorPickerViewController
+        popoverVC.modalPresentationStyle = .popover
+        popoverVC.preferredContentSize = CGSize(width: 284, height: 446)
+        if let popoverController = popoverVC.popoverPresentationController {
+            popoverController.barButtonItem = sender as? UIBarButtonItem
+            popoverController.sourceRect = CGRect(x: 0, y: 0, width: 85, height: 30)
+            popoverController.permittedArrowDirections = .any
+            popoverController.delegate = self
+            popoverVC.delegate = self
+        }
+        present(popoverVC, animated: true, completion: nil)
+    }
+    
+    // Override the iPhone behavior that presents a popover as fullscreen
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        // Return no adaptive presentation style, use default presentation behaviour
+        return .none
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -176,6 +206,7 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
             self.buttonHighlighted = self.drawButton.isHighlighted
         }
     }
+    
     func renderer(_ renderer: SCNSceneRenderer, willRenderScene scene: SCNScene, atTime time: TimeInterval) {
         
         guard let pointOfView = sceneView.pointOfView else { return }
@@ -186,13 +217,16 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         
         if buttonHighlighted {
             if let previousPoint = previousPoint {
-                addLineToRootNode(start: previousPoint, end: currentPosition)
+                let myLine = line(start: previousPoint, end: currentPosition, color: lineColor.toHexString())
+                
+                addLineToRootNode(line: myLine)
                 addLineToDatabase(start: previousPoint, end: currentPosition)
                 
             }
         }
         previousPoint = currentPosition
-        glLineWidth(20)
+        glLineWidth(2000)
+        
     }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
@@ -209,12 +243,11 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     }
     
     
-    func addLineToRootNode(start: SCNVector3, end: SCNVector3){
-        let line = lineFrom(vector: start, toVector: end)
-        let lineNode = SCNNode(geometry: line)
-        lineNode.geometry?.firstMaterial?.diffuse.contents = lineColor
+    func addLineToRootNode(line: line){
+        let myline = lineFrom(vector: line.startPoint, toVector: line.endPoint)
+        let lineNode = SCNNode(geometry: myline)
+        lineNode.geometry?.firstMaterial?.diffuse.contents = UIColor(hexString: line.color)
         sceneView.scene.rootNode.addChildNode(lineNode)
-        
         
     }
     
@@ -229,13 +262,24 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
         
     }
     
+    func setLineColor(_ color: UIColor){
+        lineColor = color
+        colorButtonItem.tintColor = color
+        drawButton.backgroundColor = color
+    }
+    
     func addLineToDatabase(start: SCNVector3, end: SCNVector3){
         let startPoint = [start.x, start.y, start.z]
         let endPoint = [end.x, end.y, end.z]
         
         let newLine = linesRef.childByAutoId()
-        self.lines[newLine.key] = line(start: start, end: end)
-        newLine.setValue(["start":startPoint, "end":endPoint])
+        self.lines[newLine.key] = line(start: start, end: end, color: lineColor.toHexString())
+        newLine.setValue(["start":startPoint, "end":endPoint, "color": lineColor.toHexString()])
+    }
+    
+    @IBAction func clearLines(_ sender: Any) {
+        linesRef.removeValue()
+        lines = [:]
     }
     
     

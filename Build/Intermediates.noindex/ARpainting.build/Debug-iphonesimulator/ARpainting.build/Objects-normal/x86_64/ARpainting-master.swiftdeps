@@ -1,11 +1,13 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "5c034761ad3e269ba7ee4d1beda08425"
-build_time: [1528364538, 77844000]
+build_time: [1528444948, 208253000]
 inputs:
-  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/PaintViewController.swift": [1528364537, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/PaintViewController.swift": [1528444947, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/LoginViewController.swift": [1528341091, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/SCNVector3Extensions.swift": [1503676423, 0]
-  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/RoomTableViewController.swift": [1528357699, 0]
-  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/Room.swift": [1528355751, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/RoomTableViewController.swift": [1528366711, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/Room.swift": [1528442481, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/UIColorExtension.swift": [1528442634, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/AppDelegate.swift": [1528336271, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/ColorPickerViewController.swift": [1528443611, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/MakeRoomViewController.swift": [1528352948, 0]

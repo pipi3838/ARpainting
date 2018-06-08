@@ -92,6 +92,7 @@ depends-member:
 - ["10ARpainting4RoomC", "roomLines"]
 - ["10ARpainting4RoomC", "roomName"]
 - ["10ARpainting4RoomC", "roomPassword"]
+- ["10ARpainting4RoomC", "roomRef"]
 - !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
 - !private ["SS", "init"]
@@ -252,4 +253,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "01bbfdc63805baf213bd2b187f7a37a7"
+interface-hash: "8224ccce5ee3f017671bd4b86b45f635"

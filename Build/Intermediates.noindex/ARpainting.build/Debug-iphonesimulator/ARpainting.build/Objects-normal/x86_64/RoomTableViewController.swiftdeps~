@@ -24,7 +24,6 @@ depends-top-level:
 - !private "DataEventType"
 - !private "DataSnapshot"
 - !private "Database"
-- !private "DatabaseReference"
 - "IndexPath"
 - "Int"
 - !private "NSError"
@@ -41,7 +40,9 @@ depends-top-level:
 - "UITableViewController"
 - !private "print"
 depends-member:
+- !private ["So17ARSCNViewDelegateP", "chatsRef"]
 - !private ["So17ARSCNViewDelegateP", "linesRef"]
+- !private ["So17ARSessionObserverP", "chatsRef"]
 - !private ["So17ARSessionObserverP", "linesRef"]
 - !private ["Sa", "count"]
 - ["Sa", "init"]
@@ -74,6 +75,7 @@ depends-member:
 - !private ["s7CVarArgP", "allObjects"]
 - !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "back"]
+- !private ["s7CVarArgP", "chatsRef"]
 - !private ["s7CVarArgP", "child"]
 - !private ["s7CVarArgP", "children"]
 - !private ["s7CVarArgP", "count"]
@@ -125,6 +127,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "allObjects"]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "back"]
+- !private ["s28CustomDebugStringConvertibleP", "chatsRef"]
 - !private ["s28CustomDebugStringConvertibleP", "child"]
 - !private ["s28CustomDebugStringConvertibleP", "children"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
@@ -180,6 +183,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "allObjects"]
 - !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "back"]
+- !private ["s23CustomStringConvertibleP", "chatsRef"]
 - !private ["s23CustomStringConvertibleP", "child"]
 - !private ["s23CustomStringConvertibleP", "children"]
 - !private ["s23CustomStringConvertibleP", "count"]
@@ -248,6 +252,7 @@ depends-member:
 - !private ["s9EquatableP", "allObjects"]
 - !private ["s9EquatableP", "auth"]
 - !private ["s9EquatableP", "back"]
+- !private ["s9EquatableP", "chatsRef"]
 - !private ["s9EquatableP", "child"]
 - !private ["s9EquatableP", "children"]
 - !private ["s9EquatableP", "count"]
@@ -306,6 +311,7 @@ depends-member:
 - !private ["s8HashableP", "allObjects"]
 - !private ["s8HashableP", "auth"]
 - !private ["s8HashableP", "back"]
+- !private ["s8HashableP", "chatsRef"]
 - !private ["s8HashableP", "child"]
 - !private ["s8HashableP", "children"]
 - !private ["s8HashableP", "currentUser"]
@@ -356,6 +362,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIBarButtonItemStyle"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "back"]
+- !private ["So8NSCodingP", "chatsRef"]
 - !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "hidesBackButton"]
@@ -386,6 +393,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItemStyle"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "back"]
+- !private ["So26NSExtensionRequestHandlingP", "chatsRef"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "linesRef"]
@@ -403,7 +411,6 @@ depends-member:
 - !private ["So8NSObjectC", "DataEventType"]
 - !private ["So8NSObjectC", "DataSnapshot"]
 - !private ["So8NSObjectC", "Database"]
-- !private ["So8NSObjectC", "DatabaseReference"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "NSError"]
@@ -419,6 +426,7 @@ depends-member:
 - !private ["So8NSObjectC", "allObjects"]
 - !private ["So8NSObjectC", "auth"]
 - ["So8NSObjectC", "back"]
+- !private ["So8NSObjectC", "chatsRef"]
 - !private ["So8NSObjectC", "child"]
 - !private ["So8NSObjectC", "children"]
 - !private ["So8NSObjectC", "currentUser"]
@@ -461,6 +469,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "allObjects"]
 - !private ["So16NSObjectProtocolP", "auth"]
 - !private ["So16NSObjectProtocolP", "back"]
+- !private ["So16NSObjectProtocolP", "chatsRef"]
 - !private ["So16NSObjectProtocolP", "child"]
 - !private ["So16NSObjectProtocolP", "children"]
 - !private ["So16NSObjectProtocolP", "currentUser"]
@@ -491,6 +500,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "value"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["10ARpainting19PaintViewControllerC", "chatsRef"]
 - !private ["10ARpainting19PaintViewControllerC", "linesRef"]
 - !private ["s22RandomAccessCollectionP", "count"]
 - ["s22RandomAccessCollectionP", "init"]
@@ -513,7 +523,6 @@ depends-member:
 - !private ["10ARpainting23RoomTableViewControllerC", "DataEventType"]
 - !private ["10ARpainting23RoomTableViewControllerC", "DataSnapshot"]
 - !private ["10ARpainting23RoomTableViewControllerC", "Database"]
-- !private ["10ARpainting23RoomTableViewControllerC", "DatabaseReference"]
 - ["10ARpainting23RoomTableViewControllerC", "IndexPath"]
 - ["10ARpainting23RoomTableViewControllerC", "Int"]
 - !private ["10ARpainting23RoomTableViewControllerC", "NSError"]
@@ -539,6 +548,7 @@ depends-member:
 - ["10ARpainting23RoomTableViewControllerC", "rooms"]
 - ["10ARpainting23RoomTableViewControllerC", "tableView"]
 - ["10ARpainting23RoomTableViewControllerC", "viewDidLoad"]
+- !private ["So24SCNSceneRendererDelegateP", "chatsRef"]
 - !private ["So24SCNSceneRendererDelegateP", "linesRef"]
 - !private ["s8SequenceP", "allObjects"]
 - !private ["s8SequenceP", "count"]
@@ -556,6 +566,8 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "reloadData"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "chatsRef"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "linesRef"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "reloadData"]
@@ -570,6 +582,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIBarButtonItemStyle"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "back"]
+- !private ["So21UIAppearanceContainerP", "chatsRef"]
 - !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
@@ -597,6 +610,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIBarButtonItemStyle"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "back"]
+- !private ["So18UIContentContainerP", "chatsRef"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "linesRef"]
@@ -628,6 +642,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIBarButtonItemStyle"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "back"]
+- !private ["So18UIFocusEnvironmentP", "chatsRef"]
 - !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
@@ -661,6 +676,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItemStyle"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "back"]
+- !private ["So30UIPasteConfigurationSupportingP", "chatsRef"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
@@ -676,12 +692,13 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "chatsRef"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "linesRef"]
 - !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "Auth"]
 - !private ["So11UIResponderC", "DataEventType"]
 - !private ["So11UIResponderC", "DataSnapshot"]
 - !private ["So11UIResponderC", "Database"]
-- !private ["So11UIResponderC", "DatabaseReference"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "NSError"]
@@ -695,6 +712,7 @@ depends-member:
 - ["So11UIResponderC", "UITableView"]
 - ["So11UIResponderC", "UITableViewCell"]
 - ["So11UIResponderC", "back"]
+- !private ["So11UIResponderC", "chatsRef"]
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
@@ -721,6 +739,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItemStyle"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "back"]
+- !private ["So30UIResponderStandardEditActionsP", "chatsRef"]
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -747,8 +766,10 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "UIBarButtonItemStyle"]
 - ["So20UIScrollViewDelegateP", ""]
 - !private ["So20UIScrollViewDelegateP", "back"]
+- !private ["So20UIScrollViewDelegateP", "chatsRef"]
 - !private ["So20UIScrollViewDelegateP", "didReceiveMemoryWarning"]
 - !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "linesRef"]
 - !private ["So20UIScrollViewDelegateP", "navigationController"]
 - !private ["So20UIScrollViewDelegateP", "navigationItem"]
 - !private ["So20UIScrollViewDelegateP", "performSegue"]
@@ -768,6 +789,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIBarButtonItemStyle"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "back"]
+- !private ["So16UIStateRestoringP", "chatsRef"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "linesRef"]
@@ -789,7 +811,6 @@ depends-member:
 - !private ["So21UITableViewControllerC", "DataEventType"]
 - !private ["So21UITableViewControllerC", "DataSnapshot"]
 - !private ["So21UITableViewControllerC", "Database"]
-- !private ["So21UITableViewControllerC", "DatabaseReference"]
 - ["So21UITableViewControllerC", "IndexPath"]
 - ["So21UITableViewControllerC", "Int"]
 - !private ["So21UITableViewControllerC", "NSError"]
@@ -824,8 +845,10 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "UIBarButtonItemStyle"]
 - ["So21UITableViewDataSourceP", ""]
 - !private ["So21UITableViewDataSourceP", "back"]
+- !private ["So21UITableViewDataSourceP", "chatsRef"]
 - !private ["So21UITableViewDataSourceP", "didReceiveMemoryWarning"]
 - !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "linesRef"]
 - !private ["So21UITableViewDataSourceP", "navigationController"]
 - !private ["So21UITableViewDataSourceP", "navigationItem"]
 - !private ["So21UITableViewDataSourceP", "performSegue"]
@@ -842,8 +865,10 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "UIBarButtonItemStyle"]
 - ["So19UITableViewDelegateP", ""]
 - !private ["So19UITableViewDelegateP", "back"]
+- !private ["So19UITableViewDelegateP", "chatsRef"]
 - !private ["So19UITableViewDelegateP", "didReceiveMemoryWarning"]
 - !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "linesRef"]
 - !private ["So19UITableViewDelegateP", "navigationController"]
 - !private ["So19UITableViewDelegateP", "navigationItem"]
 - !private ["So19UITableViewDelegateP", "performSegue"]
@@ -860,6 +885,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIBarButtonItemStyle"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "back"]
+- !private ["So18UITraitEnvironmentP", "chatsRef"]
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
@@ -884,7 +910,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "DataEventType"]
 - !private ["So16UIViewControllerC", "DataSnapshot"]
 - !private ["So16UIViewControllerC", "Database"]
-- !private ["So16UIViewControllerC", "DatabaseReference"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "NSError"]
@@ -898,6 +923,7 @@ depends-member:
 - ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", "UITableViewCell"]
 - ["So16UIViewControllerC", "back"]
+- !private ["So16UIViewControllerC", "chatsRef"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "linesRef"]
@@ -942,6 +968,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "allObjects"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "back"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chatsRef"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "children"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentUser"]
@@ -1036,6 +1063,7 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
+- !private "So40UIAdaptivePresentationControllerDelegateP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So15UIBarButtonItemC"
@@ -1053,6 +1081,7 @@ depends-nominal:
 - !private "So22UINavigationControllerC"
 - !private "So16UINavigationItemC"
 - "So30UIPasteConfigurationSupportingP"
+- !private "So39UIPopoverPresentationControllerDelegateP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"

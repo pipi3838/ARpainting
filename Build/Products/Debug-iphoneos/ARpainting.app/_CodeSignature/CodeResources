@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		poYR+WI/8vuGylVd2lrHQKcrdIc=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		4FJbWv1kyZ4meafTbs+id+t73ag=
@@ -18,39 +22,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Eyd-5O-g3g-view-O7G-af-beg.nib</key>
 		<data>
-		+VUpUyDBC1g5C3iGFhSUyM3bcDw=
+		z/7GFsAknzHaYyxoYm/VVL87JQw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		FQENGS+ofw3n8Na1OayV+2rqAPA=
+		HPbuDDMi+a8QYsjj+RfXou9xcoY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-3GM-IO-5ZC.nib</key>
 		<data>
-		WfqmNvwWLPquBwTdjbCGELZ2KIQ=
+		/Pad6Xd/UshIO2duDHx9EVj/KN8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-fn0-ms-j8I.nib</key>
 		<data>
-		7Ch7VDDUeFs/JPbx4zkqiozUQLE=
+		vPRHhVU/VSHbWFTTULvhg+vo2uU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-Eyd-5O-g3g.nib</key>
 		<data>
-		dJUe6Akq86sVCTWTfpgORJdmTw4=
+		2HSOGFFQF67OaycutjPIKaI0+LA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-sal-fM-U3Q.nib</key>
 		<data>
-		ZOrYMw1SXnVrvY1E2fvbGLZWyjA=
+		8SY3FswLFygU32xL4YjY3y88EXg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/colorPickerPopover.nib</key>
+		<data>
+		dKE+X7JQ/zLkGM71QTJ0UVQ4J6Q=
 		</data>
 		<key>Base.lproj/Main.storyboardc/fn0-ms-j8I-view-aKf-hk-31Y.nib</key>
 		<data>
-		6kCPQoAckjAOMdjnK41f7sGv57s=
+		zVpGfnrizI7Isq+zBIQNnKg2PQM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/n5f-po-88I-view-ORf-lV-iKx.nib</key>
 		<data>
-		DKudp/OUNIiHXzFGE2VVD/LGBqU=
+		alSb6SHHVkKcwndAFYr8uoV/Wwk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/sal-fM-U3Q-view-Z97-MJ-5yf.nib</key>
 		<data>
-		D4ENk8vmAnOnHuYGW1bKe0KdGgU=
+		0jQ2JC4sGYUucs6JbasmfDeZFjA=
+		</data>
+		<key>Base.lproj/Main.storyboardc/xiM-P7-YXE-view-FzO-6A-Nte.nib</key>
+		<data>
+		qSFPYtAHBIO06iOr5Gq20254H8Y=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
@@ -216,6 +228,10 @@
 		<data>
 		Wcs5u7k8egbrw76gMed6qHUsovQ=
 		</data>
+		<key>colorPalette.plist</key>
+		<data>
+		mVlukV5eMM5Zh3xuYoenl9MR+7A=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		zBHlnf9ytaH4bbYl8QMpCmXapZ0=
@@ -227,6 +243,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			poYR+WI/8vuGylVd2lrHQKcrdIc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ebnHKl8cwZsJ1mMSOIf93XX+o0saAXT41TJUaBEFI4o=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -264,99 +291,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+VUpUyDBC1g5C3iGFhSUyM3bcDw=
+			z/7GFsAknzHaYyxoYm/VVL87JQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			L6DU7NCwEl7GkTSdp3IkOfeE1/lIqjwVSOmo1y4UTX4=
+			z+GWzFdGVWsQBwFOSJB02va/Uybp0a3xHcBEOqnW9ZA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FQENGS+ofw3n8Na1OayV+2rqAPA=
+			HPbuDDMi+a8QYsjj+RfXou9xcoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dMm/JSiEXLwrI6McTslkLD1t0sBa4ciKo9QQfKzfNkU=
+			WsokRwgQC0GHADUgdCPCo9lTLBvxKuKV9vZ/wmcyqyQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-3GM-IO-5ZC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WfqmNvwWLPquBwTdjbCGELZ2KIQ=
+			/Pad6Xd/UshIO2duDHx9EVj/KN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aT76x6gZDITjXaHPrCCC5roH3KpNG7GddF3eDs0MCrw=
+			srl3VeuFnOyaP2Iweu64Qx4y6Im3b09mZIXPrf1VJGM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-fn0-ms-j8I.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7Ch7VDDUeFs/JPbx4zkqiozUQLE=
+			vPRHhVU/VSHbWFTTULvhg+vo2uU=
 			</data>
 			<key>hash2</key>
 			<data>
-			tGIfb935/ZPyGqAN1w6B4D3qeCxbGVSeQgow/OqyAKM=
+			zeqJr9jG+ud3MpuVa4jgFI8x8rLyKGjfWcC1aL8MrfA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-Eyd-5O-g3g.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dJUe6Akq86sVCTWTfpgORJdmTw4=
+			2HSOGFFQF67OaycutjPIKaI0+LA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VeLb0PXiR2zCEYZ4kYtDE6XY/XhI5Hvk53mgEP++lzk=
+			FIpswvtj5uqgpmMh5c1YsBHgZFnjLCNGhiQu6GBrQs8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-sal-fM-U3Q.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZOrYMw1SXnVrvY1E2fvbGLZWyjA=
+			8SY3FswLFygU32xL4YjY3y88EXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ihNCDnhHO8/5r5yT2qMMocTmPESCNS0VjwdDIlcQpzQ=
+			HmxMHTJjwJmMen/ZxVBlydVQuj8AwoH6REO2KfkGYT0=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/colorPickerPopover.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dKE+X7JQ/zLkGM71QTJ0UVQ4J6Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			GgALQbixhLXg0cL7VQCFTBCfzQ7Ns1izk91h3rFEi+8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/fn0-ms-j8I-view-aKf-hk-31Y.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6kCPQoAckjAOMdjnK41f7sGv57s=
+			zVpGfnrizI7Isq+zBIQNnKg2PQM=
 			</data>
 			<key>hash2</key>
 			<data>
-			DU6Y6SA4fkzI2IR8JjR7+K3wvDtQOXa8mAtvX7yMxl8=
+			y0m7pUDZ4i9F6N7ljuKk4ASHC1J/Wl1bwuamGqeuOUY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/n5f-po-88I-view-ORf-lV-iKx.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DKudp/OUNIiHXzFGE2VVD/LGBqU=
+			alSb6SHHVkKcwndAFYr8uoV/Wwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			RUHQ2RzDypXUSrqpzA9KRlqStotQHUoL00RxDBFlU0g=
+			e9wyBiWa/s8297X/Ywrcol5hsNvI4BRJND7DQlrWRgY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/sal-fM-U3Q-view-Z97-MJ-5yf.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D4ENk8vmAnOnHuYGW1bKe0KdGgU=
+			0jQ2JC4sGYUucs6JbasmfDeZFjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbI3zibdAth48UHPS17yMxDMmH0nHXeDYCy0IIpcbeU=
+			xKZ0u73eGhxuQixVc4CdFnlT6wlq492SxlrXFX+vISk=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/xiM-P7-YXE-view-FzO-6A-Nte.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qSFPYtAHBIO06iOr5Gq20254H8Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			IgLVz4sv6wdKEVSZrHa7BO6wTuuXhkCfEZz5oSdmgQI=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
@@ -775,6 +824,17 @@
 			<key>hash2</key>
 			<data>
 			6Z54xVX7RoPKUFkbPb0/gB8Hp7yARFTWJa1T9U+fNt4=
+			</data>
+		</dict>
+		<key>colorPalette.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mVlukV5eMM5Zh3xuYoenl9MR+7A=
+			</data>
+			<key>hash2</key>
+			<data>
+			nfRfO+F/vS/lM9kOHIe8D7jheI3HLmlzPBYf0IqENto=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

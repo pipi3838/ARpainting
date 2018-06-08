@@ -20,6 +20,10 @@
 		F21B86D220C8DD1A00CB858A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D120C8DD1A00CB858A /* Room.swift */; };
 		F21B86D520C90D0200CB858A /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D320C90D0200CB858A /* PaintViewController.swift */; };
 		F21B86D620C90D0200CB858A /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */; };
+		F21B86D820CA5E4C00CB858A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21B86D720CA5E4C00CB858A /* Images.xcassets */; };
+		F21B86DA20CA5E6100CB858A /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = F21B86D920CA5E6100CB858A /* colorPalette.plist */; };
+		F21B86DC20CA5E6800CB858A /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */; };
+		F21B86E020CA65F000CB858A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86DF20CA65F000CB858A /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		F21B86D120C8DD1A00CB858A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		F21B86D320C90D0200CB858A /* PaintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
 		F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		F21B86D720CA5E4C00CB858A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F21B86D920CA5E6100CB858A /* colorPalette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
+		F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		F21B86DF20CA65F000CB858A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +108,14 @@
 				F21B86D120C8DD1A00CB858A /* Room.swift */,
 				F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */,
 				F21B86D320C90D0200CB858A /* PaintViewController.swift */,
+				F21B86DF20CA65F000CB858A /* UIColorExtension.swift */,
+				F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */,
 				F21B86B120C8BF2000CB858A /* Main.storyboard */,
+				F21B86D720CA5E4C00CB858A /* Images.xcassets */,
 				F21B86B420C8BF2200CB858A /* Assets.xcassets */,
 				F21B86B620C8BF2200CB858A /* LaunchScreen.storyboard */,
 				F21B86B920C8BF2200CB858A /* Info.plist */,
+				F21B86D920CA5E6100CB858A /* colorPalette.plist */,
 				F21B86CF20C8C69000CB858A /* GoogleService-Info.plist */,
 			);
 			path = ARpainting;
@@ -171,7 +183,9 @@
 			files = (
 				F21B86D020C8C69000CB858A /* GoogleService-Info.plist in Resources */,
 				F21B86AE20C8BF2000CB858A /* art.scnassets in Resources */,
+				F21B86DA20CA5E6100CB858A /* colorPalette.plist in Resources */,
 				F21B86B820C8BF2200CB858A /* LaunchScreen.storyboard in Resources */,
+				F21B86D820CA5E4C00CB858A /* Images.xcassets in Resources */,
 				F21B86B520C8BF2200CB858A /* Assets.xcassets in Resources */,
 				F21B86B320C8BF2000CB858A /* Main.storyboard in Resources */,
 			);
@@ -234,7 +248,9 @@
 				F21B86D620C90D0200CB858A /* SCNVector3Extensions.swift in Sources */,
 				F21B86CE20C8C62900CB858A /* RoomTableViewController.swift in Sources */,
 				F21B86D220C8DD1A00CB858A /* Room.swift in Sources */,
+				F21B86E020CA65F000CB858A /* UIColorExtension.swift in Sources */,
 				F21B86AC20C8BF2000CB858A /* AppDelegate.swift in Sources */,
+				F21B86DC20CA5E6800CB858A /* ColorPickerViewController.swift in Sources */,
 				F21B86CC20C8C20200CB858A /* MakeRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

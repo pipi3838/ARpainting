@@ -566,6 +566,8 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "reloadData"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "chatsRef"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "linesRef"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "reloadData"]
@@ -690,6 +692,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "chatsRef"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "linesRef"]
 - !private ["So11UIResponderC", "AnyObject"]
 - !private ["So11UIResponderC", "Auth"]
 - !private ["So11UIResponderC", "DataEventType"]
@@ -1059,6 +1063,7 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
+- !private "So40UIAdaptivePresentationControllerDelegateP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So15UIBarButtonItemC"
@@ -1076,6 +1081,7 @@ depends-nominal:
 - !private "So22UINavigationControllerC"
 - !private "So16UINavigationItemC"
 - "So30UIPasteConfigurationSupportingP"
+- !private "So39UIPopoverPresentationControllerDelegateP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"

@@ -1,0 +1,471 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIColorC", ""]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "toHexString"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "*"
+- !private "/"
+- !private "<<"
+- !private ">>"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- "CastingPrecedence"
+- !private "Int"
+- !private "NSCharacterSet"
+- !private "Scanner"
+- "String"
+- !private "StringLiteralType"
+- "UIColor"
+- !private "UInt32"
+- !private "UnicodeScalarType"
+- !private "|"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "hasPrefix"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "trimmingCharacters"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSCharacterSet"]
+- !private ["s7CVarArgP", "Scanner"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "getRed"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "scanHexInt32"]
+- !private ["s7CVarArgP", "scanLocation"]
+- !private ["s7CVarArgP", "trimmingCharacters"]
+- !private ["s7CVarArgP", "whitespacesAndNewlines"]
+- !private ["s10CollectionP", "hasPrefix"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "trimmingCharacters"]
+- !private ["s10ComparableP", "hasPrefix"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSCharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "Scanner"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "getRed"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "scanHexInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "scanLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s28CustomDebugStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSCharacterSet"]
+- !private ["s23CustomStringConvertibleP", "Scanner"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "getRed"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "scanHexInt32"]
+- !private ["s23CustomStringConvertibleP", "scanLocation"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "whitespacesAndNewlines"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hasPrefix"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "trimmingCharacters"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hasPrefix"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "trimmingCharacters"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSCharacterSet"]
+- !private ["s9EquatableP", "Scanner"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "getRed"]
+- !private ["s9EquatableP", "hasPrefix"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "scanHexInt32"]
+- !private ["s9EquatableP", "scanLocation"]
+- !private ["s9EquatableP", "trimmingCharacters"]
+- !private ["s9EquatableP", "whitespacesAndNewlines"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSCharacterSet"]
+- !private ["s8HashableP", "Scanner"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "getRed"]
+- !private ["s8HashableP", "hasPrefix"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "scanHexInt32"]
+- !private ["s8HashableP", "scanLocation"]
+- !private ["s8HashableP", "trimmingCharacters"]
+- !private ["s8HashableP", "whitespacesAndNewlines"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- !private ["So14NSCharacterSetC", "whitespacesAndNewlines"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSCharacterSet"]
+- !private ["So8NSCodingP", "Scanner"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "getRed"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "trimmingCharacters"]
+- !private ["So8NSCodingP", "whitespacesAndNewlines"]
+- !private ["So9NSCopyingP", "CGFloat"]
+- !private ["So9NSCopyingP", "Int"]
+- !private ["So9NSCopyingP", "NSCharacterSet"]
+- !private ["So9NSCopyingP", "Scanner"]
+- !private ["So9NSCopyingP", "String"]
+- !private ["So9NSCopyingP", "getRed"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "scanHexInt32"]
+- !private ["So9NSCopyingP", "scanLocation"]
+- !private ["So9NSCopyingP", "trimmingCharacters"]
+- !private ["So9NSCopyingP", "whitespacesAndNewlines"]
+- !private ["So21NSItemProviderReadingP", "CGFloat"]
+- !private ["So21NSItemProviderReadingP", "Int"]
+- !private ["So21NSItemProviderReadingP", "NSCharacterSet"]
+- !private ["So21NSItemProviderReadingP", "Scanner"]
+- !private ["So21NSItemProviderReadingP", "String"]
+- !private ["So21NSItemProviderReadingP", "getRed"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderWritingP", "CGFloat"]
+- !private ["So21NSItemProviderWritingP", "Int"]
+- !private ["So21NSItemProviderWritingP", "NSCharacterSet"]
+- !private ["So21NSItemProviderWritingP", "Scanner"]
+- !private ["So21NSItemProviderWritingP", "String"]
+- !private ["So21NSItemProviderWritingP", "getRed"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- !private ["So16NSMutableCopyingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "whitespacesAndNewlines"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSCharacterSet"]
+- !private ["So8NSObjectC", "Scanner"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt32"]
+- !private ["So8NSObjectC", "getRed"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "scanHexInt32"]
+- !private ["So8NSObjectC", "scanLocation"]
+- ["So8NSObjectC", "toHexString"]
+- !private ["So8NSObjectC", "trimmingCharacters"]
+- !private ["So8NSObjectC", "whitespacesAndNewlines"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSCharacterSet"]
+- !private ["So16NSObjectProtocolP", "Scanner"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "getRed"]
+- !private ["So16NSObjectProtocolP", "hasPrefix"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "scanHexInt32"]
+- !private ["So16NSObjectProtocolP", "scanLocation"]
+- !private ["So16NSObjectProtocolP", "trimmingCharacters"]
+- !private ["So16NSObjectProtocolP", "whitespacesAndNewlines"]
+- !private ["So14NSSecureCodingP", "CGFloat"]
+- !private ["So14NSSecureCodingP", "Int"]
+- !private ["So14NSSecureCodingP", "NSCharacterSet"]
+- !private ["So14NSSecureCodingP", "Scanner"]
+- !private ["So14NSSecureCodingP", "String"]
+- !private ["So14NSSecureCodingP", "getRed"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "trimmingCharacters"]
+- !private ["So14NSSecureCodingP", "whitespacesAndNewlines"]
+- !private ["So8NSStringC", "hasPrefix"]
+- !private ["So8NSStringC", "trimmingCharacters"]
+- !private ["s7NumericP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "hasPrefix"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "trimmingCharacters"]
+- !private ["So7ScannerC", "init"]
+- !private ["So7ScannerC", "scanHexInt32"]
+- !private ["So7ScannerC", "scanLocation"]
+- !private ["s8SequenceP", "hasPrefix"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "trimmingCharacters"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "init"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["s14StringProtocolP", "hasPrefix"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "trimmingCharacters"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- !private ["So7UIColorC", "CGFloat"]
+- !private ["So7UIColorC", "Int"]
+- !private ["So7UIColorC", "NSCharacterSet"]
+- !private ["So7UIColorC", "Scanner"]
+- ["So7UIColorC", "String"]
+- !private ["So7UIColorC", "UInt32"]
+- !private ["So7UIColorC", "getRed"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "toHexString"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hasPrefix"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "trimmingCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s26_ExpressibleByColorLiteralP", "CGFloat"]
+- !private ["s26_ExpressibleByColorLiteralP", "Int"]
+- !private ["s26_ExpressibleByColorLiteralP", "NSCharacterSet"]
+- !private ["s26_ExpressibleByColorLiteralP", "Scanner"]
+- !private ["s26_ExpressibleByColorLiteralP", "String"]
+- !private ["s26_ExpressibleByColorLiteralP", "getRed"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "whitespacesAndNewlines"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSCharacterSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Scanner"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scanHexInt32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scanLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trimmingCharacters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "whitespacesAndNewlines"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+- !private ["s16_SwiftStringViewP", "hasPrefix"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "trimmingCharacters"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So14NSCharacterSetC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "So7ScannerC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So7UIColorC"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/HW3/ARBasketball/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "48ca1f46fccb832b097029f0d3d52a39"
