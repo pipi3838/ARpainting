@@ -244,10 +244,15 @@ class PaintViewController: UIViewController, ARSCNViewDelegate, UITableViewDataS
     
     
     func addLineToRootNode(line: line){
-        let myline = lineFrom(vector: line.startPoint, toVector: line.endPoint)
-        let lineNode = SCNNode(geometry: myline)
-        lineNode.geometry?.firstMaterial?.diffuse.contents = UIColor(hexString: line.color)
-        sceneView.scene.rootNode.addChildNode(lineNode)
+        
+//        let myline = lineFrom(vector: line.startPoint, toVector: line.endPoint)
+//        let lineNode = SCNNode(geometry: myline)
+//        lineNode.geometry?.firstMaterial?.diffuse.contents = UIColor(hexString: line.color)
+//        sceneView.scene.rootNode.addChildNode(lineNode)
+        
+        let twoPointsNode = SCNNode().buildLineInTwoPointsWithRotation(
+            from: line.startPoint, to: line.endPoint, radius: 0.001, color: UIColor(hexString: line.color))
+        sceneView.scene.rootNode.addChildNode(twoPointsNode)
         
     }
     

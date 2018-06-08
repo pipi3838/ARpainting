@@ -1,8 +1,9 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "9823a94f9f69ff85552176e75584dc63"
-build_time: [1528445161, 330220000]
+build_time: [1528448455, 177934000]
 inputs:
-  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/PaintViewController.swift": [1528445160, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/PaintViewController.swift": [1528448395, 0]
+  "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/CylinderExtension.swift": [1528448454, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/LoginViewController.swift": [1528341091, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/SCNVector3Extensions.swift": [1503676423, 0]
   "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/ARpainting/RoomTableViewController.swift": [1528366711, 0]

@@ -24,6 +24,7 @@
 		F21B86DA20CA5E6100CB858A /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = F21B86D920CA5E6100CB858A /* colorPalette.plist */; };
 		F21B86DC20CA5E6800CB858A /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */; };
 		F21B86E020CA65F000CB858A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86DF20CA65F000CB858A /* UIColorExtension.swift */; };
+		F21B86E220CA7A3C00CB858A /* CylinderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B86E120CA7A3C00CB858A /* CylinderExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		F21B86D920CA5E6100CB858A /* colorPalette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
 		F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		F21B86DF20CA65F000CB858A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		F21B86E120CA7A3C00CB858A /* CylinderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				F21B86D120C8DD1A00CB858A /* Room.swift */,
 				F21B86D420C90D0200CB858A /* SCNVector3Extensions.swift */,
 				F21B86D320C90D0200CB858A /* PaintViewController.swift */,
+				F21B86E120CA7A3C00CB858A /* CylinderExtension.swift */,
 				F21B86DF20CA65F000CB858A /* UIColorExtension.swift */,
 				F21B86DB20CA5E6800CB858A /* ColorPickerViewController.swift */,
 				F21B86B120C8BF2000CB858A /* Main.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F21B86D520C90D0200CB858A /* PaintViewController.swift in Sources */,
+				F21B86E220CA7A3C00CB858A /* CylinderExtension.swift in Sources */,
 				F21B86C620C8C0E700CB858A /* LoginViewController.swift in Sources */,
 				F21B86D620C90D0200CB858A /* SCNVector3Extensions.swift in Sources */,
 				F21B86CE20C8C62900CB858A /* RoomTableViewController.swift in Sources */,

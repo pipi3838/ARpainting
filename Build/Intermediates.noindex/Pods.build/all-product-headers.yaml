@@ -4,623 +4,623 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "FIRActionCodeSettings.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRActionCodeSettings.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRActionCodeSettings.h"
         },
         {
           'type': 'file',
           'name': "FIRAdditionalUserInfo.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAdditionalUserInfo.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAdditionalUserInfo.h"
         },
         {
           'type': 'file',
           'name': "FIRAuth.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthAPNSTokenType.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthCredential.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthDataResult.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthDataResult.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthDataResult.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthErrors.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthSettings.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthTokenResult.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthTokenResult.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthTokenResult.h"
         },
         {
           'type': 'file',
           'name': "FIRAuthUIDelegate.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h"
         },
         {
           'type': 'file',
           'name': "FIREmailAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIREmailAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIREmailAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRFacebookAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRGitHubAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGitHubAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGitHubAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRGoogleAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGoogleAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGoogleAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIROAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRPhoneAuthCredential.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h"
         },
         {
           'type': 'file',
           'name': "FIRPhoneAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRTwitterAuthProvider.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRTwitterAuthProvider.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRTwitterAuthProvider.h"
         },
         {
           'type': 'file',
           'name': "FIRUser.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUser.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUser.h"
         },
         {
           'type': 'file',
           'name': "FIRUserInfo.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserInfo.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserInfo.h"
         },
         {
           'type': 'file',
           'name': "FIRUserMetadata.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserMetadata.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserMetadata.h"
         },
         {
           'type': 'file',
           'name': "FirebaseAuth-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-Swift.h"
         },
         {
           'type': 'file',
           'name': "FirebaseAuth-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h"
         },
         {
           'type': 'file',
           'name': "FirebaseAuth.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuth.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuth.h"
         },
         {
           'type': 'file',
           'name': "FirebaseAuthVersion.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "FIRAnalyticsConfiguration.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h"
         },
         {
           'type': 'file',
           'name': "FIRApp.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h"
         },
         {
           'type': 'file',
           'name': "FIRConfiguration.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h"
         },
         {
           'type': 'file',
           'name': "FIRLoggerLevel.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h"
         },
         {
           'type': 'file',
           'name': "FIROptions.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h"
         },
         {
           'type': 'file',
           'name': "FirebaseCore-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-Swift.h"
         },
         {
           'type': 'file',
           'name': "FirebaseCore-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h"
         },
         {
           'type': 'file',
           'name': "FirebaseCore.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/PrivateHeaders",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/PrivateHeaders",
       'contents': [
         {
           'type': 'file',
           'name': "FIRAnalyticsConfiguration+Internal.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"
         },
         {
           'type': 'file',
           'name': "FIRAppAssociationRegistration.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h"
         },
         {
           'type': 'file',
           'name': "FIRAppEnvironmentUtil.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/third_party/FIRAppEnvironmentUtil.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/third_party/FIRAppEnvironmentUtil.h"
         },
         {
           'type': 'file',
           'name': "FIRAppInternal.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h"
         },
         {
           'type': 'file',
           'name': "FIRBundleUtil.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h"
         },
         {
           'type': 'file',
           'name': "FIRErrorCode.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h"
         },
         {
           'type': 'file',
           'name': "FIRErrors.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h"
         },
         {
           'type': 'file',
           'name': "FIRLogger.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h"
         },
         {
           'type': 'file',
           'name': "FIRMutableDictionary.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRMutableDictionary.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRMutableDictionary.h"
         },
         {
           'type': 'file',
           'name': "FIRNetwork.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetwork.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetwork.h"
         },
         {
           'type': 'file',
           'name': "FIRNetworkConstants.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkConstants.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkConstants.h"
         },
         {
           'type': 'file',
           'name': "FIRNetworkLoggerProtocol.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkLoggerProtocol.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkLoggerProtocol.h"
         },
         {
           'type': 'file',
           'name': "FIRNetworkMessageCode.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkMessageCode.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkMessageCode.h"
         },
         {
           'type': 'file',
           'name': "FIRNetworkURLSession.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkURLSession.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkURLSession.h"
         },
         {
           'type': 'file',
           'name': "FIROptionsInternal.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h"
         },
         {
           'type': 'file',
           'name': "FIRReachabilityChecker+Internal.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker+Internal.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker+Internal.h"
         },
         {
           'type': 'file',
           'name': "FIRReachabilityChecker.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker.h"
         },
         {
           'type': 'file',
           'name': "FIRVersion.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "FIRDataEventType.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h"
         },
         {
           'type': 'file',
           'name': "FIRDataSnapshot.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h"
         },
         {
           'type': 'file',
           'name': "FIRDatabase.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabase.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabase.h"
         },
         {
           'type': 'file',
           'name': "FIRDatabaseQuery.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h"
         },
         {
           'type': 'file',
           'name': "FIRDatabaseReference.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseReference.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseReference.h"
         },
         {
           'type': 'file',
           'name': "FIRMutableData.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRMutableData.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRMutableData.h"
         },
         {
           'type': 'file',
           'name': "FIRServerValue.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRServerValue.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRServerValue.h"
         },
         {
           'type': 'file',
           'name': "FIRTransactionResult.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRTransactionResult.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FIRTransactionResult.h"
         },
         {
           'type': 'file',
           'name': "FirebaseDatabase-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-Swift.h"
         },
         {
           'type': 'file',
           'name': "FirebaseDatabase-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-umbrella.h"
         },
         {
           'type': 'file',
           'name': "FirebaseDatabase.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FirebaseDatabase.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/FirebaseDatabase/Firebase/Database/Public/FirebaseDatabase.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "GTMSessionFetcher-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcher-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcher.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcherLogging.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
         },
         {
           'type': 'file',
           'name': "GTMSessionFetcherService.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
         },
         {
           'type': 'file',
           'name': "GTMSessionUploadFetcher.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "GTMDefines.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GoogleToolboxForMac/GTMDefines.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GoogleToolboxForMac/GTMDefines.h"
         },
         {
           'type': 'file',
           'name': "GTMNSData+zlib.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
         },
         {
           'type': 'file',
           'name': "GoogleToolboxForMac-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
         },
         {
           'type': 'file',
           'name': "GoogleToolboxForMac-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-ARpainting-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/Pods-ARpainting/Pods-ARpainting-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_ARpainting-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Headers/Pods_ARpainting-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Headers/Pods_ARpainting-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/Pods_ARpainting.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-ARpainting.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-ARpainting.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "c.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/c.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/c.h"
         },
         {
           'type': 'file',
           'name': "cache.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/cache.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/cache.h"
         },
         {
           'type': 'file',
           'name': "comparator.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/comparator.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/comparator.h"
         },
         {
           'type': 'file',
           'name': "db.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/db.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/db.h"
         },
         {
           'type': 'file',
           'name': "dumpfile.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/dumpfile.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/dumpfile.h"
         },
         {
           'type': 'file',
           'name': "env.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/env.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/env.h"
         },
         {
           'type': 'file',
           'name': "filter_policy.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/filter_policy.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/filter_policy.h"
         },
         {
           'type': 'file',
           'name': "iterator.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/iterator.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/iterator.h"
         },
         {
           'type': 'file',
           'name': "leveldb-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers/leveldb-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers/leveldb-Swift.h"
         },
         {
           'type': 'file',
           'name': "leveldb-library-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h"
         },
         {
           'type': 'file',
           'name': "options.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/options.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/options.h"
         },
         {
           'type': 'file',
           'name': "slice.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/slice.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/slice.h"
         },
         {
           'type': 'file',
           'name': "status.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/status.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/status.h"
         },
         {
           'type': 'file',
           'name': "table.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/table.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/table.h"
         },
         {
           'type': 'file',
           'name': "table_builder.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/table_builder.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/table_builder.h"
         },
         {
           'type': 'file',
           'name': "write_batch.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/leveldb-library/include/leveldb/write_batch.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/leveldb-library/include/leveldb/write_batch.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/leveldb-library.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "nanopb-Swift.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
         },
         {
           'type': 'file',
           'name': "nanopb-umbrella.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
         },
         {
           'type': 'file',
           'name': "pb.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/nanopb/pb.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/nanopb/pb.h"
         },
         {
           'type': 'file',
           'name': "pb_common.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/nanopb/pb_common.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/nanopb/pb_common.h"
         },
         {
           'type': 'file',
           'name': "pb_decode.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/nanopb/pb_decode.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/nanopb/pb_decode.h"
         },
         {
           'type': 'file',
           'name': "pb_encode.h",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Pods/nanopb/pb_encode.h"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Pods/nanopb/pb_encode.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Modules",
+      'name': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/\u5C08\u984C/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/nanopb.build/module.modulemap"
+          'external-contents': "/Users/chenoneone/\u958B\u767C/\u884C\u52D5\u96FB\u8A71\u7A0B\u5F0F\u8A2D\u8A08/ARpainting/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/nanopb.build/module.modulemap"
         }
       ]
     }
