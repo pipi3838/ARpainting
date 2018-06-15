@@ -13,9 +13,9 @@
 
 
 ### Screenshots of application
-![login](https://github.com/pipi3838/ARpainting/try/螢幕快照 2018-06-15 下午9.18.51.png)
-![enter room](https://github.com/pipi3838/ARpainting/try/螢幕快照 2018-06-15 下午9.18.57.png)
-![painting](https://github.com/pipi3838/ARpainting/try/螢幕快照 2018-06-15 下午9.19.08.png)
+![login](https://github.com/pipi3838/ARpainting/try/login.png)
+![enter room](https://github.com/pipi3838/ARpainting/try/room.png)
+![painting](https://github.com/pipi3838/ARpainting/try/paint.png)
 
 
 
