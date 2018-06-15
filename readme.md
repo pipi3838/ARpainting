@@ -13,9 +13,11 @@
 
 
 ### Screenshots of application
-![login](https://github.com/pipi3838/ARpainting/blob/try/login.png)
-![enter room](https://github.com/pipi3838/ARpainting/blob/try/room.png)
-![painting](https://github.com/pipi3838/ARpainting/blob/try/paint.png)
+<figure class="third">
+    <img src="https://github.com/pipi3838/ARpainting/blob/try/login.png" title="login" width="100">
+    <img src="https://github.com/pipi3838/ARpainting/blob/try/room.png" title="enter room" width="100">
+    <img src="https://github.com/pipi3838/ARpainting/blob/try/paint.png" title="paint" width="100">
+</figure>
 
 
 
