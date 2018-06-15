@@ -13,9 +13,7 @@
 
 
 ### Screenshots of application
-<figure class="third">
-    <img src="https://github.com/pipi3838/ARpainting/blob/try/login.png" title="login" width="200"><img src="https://github.com/pipi3838/ARpainting/blob/try/room.png" title="enter room" width="200"><img src="https://github.com/pipi3838/ARpainting/blob/try/paint.png" title="paint" width="200">
-</figure>
+    <img src="https://github.com/pipi3838/ARpainting/blob/try/login.png" title="login" width="200"> <img src="https://github.com/pipi3838/ARpainting/blob/try/room.png" title="enter room" width="200"> <img src="https://github.com/pipi3838/ARpainting/blob/try/paint.png" title="paint" width="200">
 
 
 
