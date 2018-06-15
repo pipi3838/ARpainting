@@ -13,9 +13,12 @@
 
 
 ### Screenshots of application
-    <img src="https://github.com/pipi3838/ARpainting/blob/try/login.png" title="login" width="200"> <img src="https://github.com/pipi3838/ARpainting/blob/try/room.png" title="enter room" width="200"> <img src="https://github.com/pipi3838/ARpainting/blob/try/paint.png" title="paint" width="200">
+<p float="left">
+    <img src="https://github.com/pipi3838/ARpainting/blob/try/login.png" title="login" width="150"/> <img src="https://github.com/pipi3838/ARpainting/blob/try/room.png" title="enter room" width="150"/> <img src="https://github.com/pipi3838/ARpainting/blob/try/paint.png" title="paint" width="150"/>
+</p>
 
 
 
 
 ### Links of demo viedos [videos](https://drive.google.com/file/d/19g0nX5VrQmjU774HkzAXO6ZhUwozEssp/view?usp=sharing)
+
